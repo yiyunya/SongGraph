@@ -14,22 +14,61 @@ def load_json(data):
     return data
 
 def step(id,index_year, min_rel, min_social_rel, female):
+    path = os.path.abspath('..')
     all = []
-    f = open(path+"/data/raw/"+str(id)+".json",'r')
+    valid = []
+    f = open(path+"/data/valid/"+str(id)+".json",'r')
     data = load_json(f)
-    data = dump_dict(data)
-
+    f.close()
+    valid_kin = []
     for rel in data['Kinship']:
         rel_id = rel['KinPersonId']
-        if rel_id is not 'Nan':
+        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False):
             get_json(int(rel_id))
             all.append(int(rel_id))
+            f = open(path + "/data/raw/"+rel_id+".json", 'r')
+            d = load_json(f)
+            f.close()
+            d = dump_dict(d)
+            if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
+                valid.append(int(rel_id))
+                with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
+                    json.dump(d, f, indent=4, ensure_ascii=False)
+                valid_kin.append(rel)
+        if os.path.exists(path + "/data/valid/"+rel_id+".json"):
+            valid_kin.append(rel)
+    data['ValidKinship']=valid_kin
+
+    valid_social = []
+    for rel in data['SocialAssociation']:
+        rel_id = rel["AssocPersonId"]
+        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False):
+            get_json(int(rel_id))
+            all.append(int(rel_id))
+            f = open(path + "/data/raw/"+rel_id+".json", 'r')
+            d = load_json(f)
+            f.close()
+            d = dump_dict(d)
+            if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
+                valid.append(int(rel_id))
+                with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
+                    json.dump(d, f, indent=4, ensure_ascii=False)
+                valid_social.append(rel)
+        if os.path.exists(path + "/data/valid/"+rel_id+".json"):
+            valid_social.append(rel)
+    data['ValidKinship']=valid_social
+    with open(path + "/data/valid/1762.json", 'w') as f:
+        json.dump(d, f, indent=4, ensure_ascii=False)
+    f.close()
+    return all, valid
+
+
 
 
 
 
 def check_valid(data, index_year, min_rel, min_social_rel, female):
-    if data['BasicInfo']['IndexYear'] is 'Nan' or  int(data['BasicInfo']['IndexYear']) > index_year:
+    if (data['BasicInfo']['IndexYear'] is 'Nan' or '') or  int(data['BasicInfo']['IndexYear']) > index_year:
         return False
     if len(data['Kinship'])+len(data['SocialAssociation']) < min_rel:
         return False
@@ -63,14 +102,17 @@ def dump_dict(data):
                     break
         else:
             for item in address_info_list:
+                d['Address'] = {}
                 d['Address'][item] = 'Nan'
             flag = 1
         if flag == 0:
             for item in address_info_list:
+                d['Address'] = {}
                 d['Address'][item] = 'Nan'
             flag = 1
     else:
         for item in address_info_list:
+            d['Address'] = {}
             d['Address'][item] = 'Nan'
 
     entry_info_list = ["RuShiDoor", "RuShiType", "RuShiYear"]
@@ -81,9 +123,11 @@ def dump_dict(data):
             d['Entry']=simplify(entry_info,entry_info_list)
         else:
             for item in entry_info_list:
+                d['Entry'] = {}
                 d['Entry'][item]='Nan'
     else:
         for item in entry_info_list:
+            d['Entry'] = {}
             d['Entry'][item] = 'Nan'
 
 
@@ -150,7 +194,7 @@ def dump_dict(data):
 def simplify(data,list):
     d = {}
     for item in list:
-        if (item in data.keys()) and (data[item] is not 0 or "未知" or "未詳" or None or ""):
+        if (item in data.keys()) and (data[item] is not 0 or "未知" or "未詳" or None or "" or ''):
             d[item]=data[item]
         else:
             d[item]='Nan'
@@ -164,5 +208,5 @@ print(d['Package']['PersonAuthority']['PersonInfo']['Person']['BasicInfo']['ChNa
 f.close()
 d = dump_dict(d)
 with open(path+"/data/valid/1762.json", 'w') as f:
-    json.dump(d, f,indent=4)
+    json.dump(d, f,indent=4,ensure_ascii=False)
 f.close()
