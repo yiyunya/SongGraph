@@ -77,42 +77,45 @@ def dump_dict(data):
                 l.append(simplify(i,status_info_list))
             d['Status']=l
     else:
-        tmp = {}
-        for item in status_info_list:
-            tmp[item]='Nan'
-        d['Status']=[tmp]
+        d['Status'] = []
+        # tmp = {}
+        # for item in status_info_list:
+        #     tmp[item]='Nan'
+        # d['Status']=[tmp]
 
     kin_info_list = ["KinPersonId", "KinPersonName", "KinCode", "KinRel", "KinRelName"]
     if data['Package']['PersonAuthority']['PersonInfo']['Person']["PersonKinshipInfo"] is not "":
         kin_info = data['Package']['PersonAuthority']['PersonInfo']['Person']["PersonKinshipInfo"]["Kinship"]
         if isinstance(kin_info, dict):
             d['Kinship'] = [simplify(kin_info,kin_info_list)]
-        elif isinstance(kin_info,list):
+        elif isinstance(kin_info, list):
             l = []
             for i in kin_info:
-                l.append(i,kin_info_list)
+                l.append(simplify(i,kin_info_list))
             d['Kinship']=l
     else:
-        tmp = {}
-        for item in kin_info_list:
-            tmp[item]='Nan'
-        d['Kinship']=[tmp]
+        d['Kinship'] = []
+        # tmp = {}
+        # for item in kin_info_list:
+        #     tmp[item]='Nan'
+        # d['Kinship']=[tmp]
 
     social_info_list = ["AssocPersonId", "AssocPersonName", "AssocCode", "AssocName"]
     if data['Package']['PersonAuthority']['PersonInfo']['Person']["PersonSocialAssociation"] is not "":
         social_info = data['Package']['PersonAuthority']['PersonInfo']['Person']["PersonSocialAssociation"]["Association"]
-
-
-
-
-
-
-
-
-
-
-
-
+        if isinstance(social_info, dict):
+            d['SocialAssociation'] = [simplify(social_info, social_info_list)]
+        elif isinstance(social_info, list):
+            l = []
+            for i in social_info:
+                l.append(simplify(i,social_info_list))
+            d['SocialAssociation'] = l
+    else:
+        d['SocialAssociation']=[]
+        # tmp = {}
+        # for item in kin_info_list:
+        #     tmp[item]='Nan'
+        # d['SocialAssociation']=[tmp]
 
     # d['BasicInfo']={"PersonId":bi["PersonId"], "EngName":bi["EngName"], "ChName":bi["ChName"],
     #                 "IndexYear":bi["IndexYear"], "Gender":bi["Gender"], "YearBirth":bi["YearBirth"],

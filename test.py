@@ -17,3 +17,4 @@
 
 a={'b':""}
 print(a['b'] is not 0 or None)
+print(isinstance(a,dict))
