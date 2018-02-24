@@ -2,12 +2,8 @@ import json
 from urllib import request
 import os
 
-class JSONObject:
-    def __init__(self,d):
-        self.__dict__ = d
 
-
-def get_json(id = 1763):
+def get_json(id):
     url = "http://cbdb.fas.harvard.edu/cbdbapi/person.php?id="+str(id)+"&o=json"
     path = os.path.abspath('..')
     datapath = path + "/data/raw/"+str(id)+".json"
@@ -17,8 +13,33 @@ def load_json(data):
     data = json.load(data)
     return data
 
-def check_valid(data):
-    return
+def step(id,index_year, min_rel, min_social_rel, female):
+    all = []
+    f = open(path+"/data/raw/"+str(id)+".json",'r')
+    data = load_json(f)
+    data = dump_dict(data)
+
+    for rel in data['Kinship']:
+        rel_id = rel['KinPersonId']
+        if rel_id is not 'Nan':
+            get_json(int(rel_id))
+            all.append(int(rel_id))
+
+
+
+
+def check_valid(data, index_year, min_rel, min_social_rel, female):
+    if data['BasicInfo']['IndexYear'] is 'Nan' or  int(data['BasicInfo']['IndexYear']) > index_year:
+        return False
+    if len(data['Kinship'])+len(data['SocialAssociation']) < min_rel:
+        return False
+    if len(data['SocialAssociation']) < min_social_rel:
+        return False
+    if female is False:
+        if data['BasicInfo']['Gender'] is '1':
+            return False
+    return True
+
 
 def dump_dict(data):
     d = {}
@@ -129,7 +150,7 @@ def dump_dict(data):
 def simplify(data,list):
     d = {}
     for item in list:
-        if (item in d.keys()) and (data[item] is not 0 or "未知" or "未詳" or None or ""):
+        if (item in data.keys()) and (data[item] is not 0 or "未知" or "未詳" or None or ""):
             d[item]=data[item]
         else:
             d[item]='Nan'
@@ -137,6 +158,11 @@ def simplify(data,list):
 
 
 path = os.path.abspath('..')
-f = open(path+"/data/raw/1763.json",'r')
+f = open(path+"/data/raw/1762.json",'r')
 d = load_json(f)
 print(d['Package']['PersonAuthority']['PersonInfo']['Person']['BasicInfo']['ChName'])
+f.close()
+d = dump_dict(d)
+with open(path+"/data/valid/1762.json", 'w') as f:
+    json.dump(d, f,indent=4)
+f.close()
