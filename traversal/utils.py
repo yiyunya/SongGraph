@@ -1,3 +1,4 @@
+# coding: utf-8
 import json
 from urllib import request
 import os
@@ -68,13 +69,15 @@ def step(id,index_year, min_rel, min_social_rel, female):
 
 
 def check_valid(data, index_year, min_rel, min_social_rel, female):
-    if (data['BasicInfo']['IndexYear'] is 'Nan' or '') or  int(data['BasicInfo']['IndexYear']) > index_year:
+    if data['BasicInfo']['IndexYear'] is 'Nan' or '':
         return False
-    if len(data['Kinship'])+len(data['SocialAssociation']) < min_rel:
+    elif int(data['BasicInfo']['IndexYear']) > index_year:
         return False
-    if len(data['SocialAssociation']) < min_social_rel:
+    elif len(data['Kinship'])+len(data['SocialAssociation']) < min_rel:
         return False
-    if female is False:
+    elif len(data['SocialAssociation']) < min_social_rel:
+        return False
+    elif female is False:
         if data['BasicInfo']['Gender'] is '1':
             return False
     return True
@@ -156,7 +159,7 @@ def dump_dict(data):
         elif isinstance(kin_info, list):
             l = []
             for i in kin_info:
-                l.append(simplify(i,kin_info_list))
+                l.append(simplify(i,kin_info_list,social=True))
             d['Kinship']=l
     else:
         d['Kinship'] = []
@@ -173,7 +176,7 @@ def dump_dict(data):
         elif isinstance(social_info, list):
             l = []
             for i in social_info:
-                l.append(simplify(i,social_info_list))
+                l.append(simplify(i,social_info_list,social=True))
             d['SocialAssociation'] = l
     else:
         d['SocialAssociation']=[]
@@ -191,13 +194,20 @@ def dump_dict(data):
 
 
 
-def simplify(data,list):
+def simplify(data,list,social=False):
     d = {}
-    for item in list:
-        if (item in data.keys()) and (data[item] is not 0 or "未知" or "未詳" or None or "" or ''):
-            d[item]=data[item]
-        else:
-            d[item]='Nan'
+    if social == False:
+        for item in list:
+            if (item in data.keys()) and data[item]!='0' and data[item]!= "未知" and data[item]!="未詳" and data[item]!='':
+                d[item]=data[item]
+            else:
+                d[item]='Nan'
+    else:
+        for item in list:
+            if (item in data.keys()) and data[item]!='':
+                d[item]=data[item]
+            else:
+                d[item]='Nan'
     return d
 
 
