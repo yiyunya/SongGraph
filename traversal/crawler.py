@@ -12,7 +12,7 @@ import time
 # f = request.urlretrieve(url,datapath)
 
 class Crawler:
-    def __init__(self, year = 1120, min_rel = 2, min_social_rel = 1, female = True):
+    def __init__(self, year = 1110, min_rel = 3, min_social_rel = 1, female = True):
         self.year = year
         self.min_rel = min_rel
         self.min_social_rel = min_social_rel
@@ -35,8 +35,8 @@ class Crawler:
             tmp_v = []
             for id in v:
                 step_a ,step_v = step(id, self.year, self.min_rel, self.min_social_rel, self.female)
-                tmp_a.append(step_a)
-                tmp_v.append(step_v)
+                tmp_a.extend(step_a)
+                tmp_v.extend(step_v)
             a = tmp_a
             v = tmp_v
             all.extend(a)

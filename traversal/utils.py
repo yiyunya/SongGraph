@@ -24,7 +24,7 @@ def step(id,index_year, min_rel, min_social_rel, female):
     valid_kin = []
     for rel in data['Kinship']:
         rel_id = rel['KinPersonId']
-        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False):
+        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False) and rel_id != '9999':
             get_json(int(rel_id))
             all.append(int(rel_id))
             f = open(path + "/data/raw/"+rel_id+".json", 'r')
@@ -43,7 +43,7 @@ def step(id,index_year, min_rel, min_social_rel, female):
     valid_social = []
     for rel in data['SocialAssociation']:
         rel_id = rel["AssocPersonId"]
-        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False):
+        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False) and rel_id != '9999':
             get_json(int(rel_id))
             all.append(int(rel_id))
             f = open(path + "/data/raw/"+rel_id+".json", 'r')
@@ -55,10 +55,14 @@ def step(id,index_year, min_rel, min_social_rel, female):
                 with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
                     json.dump(d, f, indent=4, ensure_ascii=False)
                 valid_social.append(rel)
+        elif rel_id == '9999':
+            status = {"StatusName":rel["AssocName"], "StatusCode":rel["AssocCode"]}
+            data['Status'].append(status)
+
         if os.path.exists(path + "/data/valid/"+rel_id+".json"):
             valid_social.append(rel)
     data['ValidKinship']=valid_social
-    with open(path + "/data/valid/1762.json", 'w') as f:
+    with open(path + "/data/valid/"+str(id)+".json", 'w') as f:
         json.dump(d, f, indent=4, ensure_ascii=False)
     f.close()
     return all, valid
@@ -72,6 +76,8 @@ def check_valid(data, index_year, min_rel, min_social_rel, female):
     if data['BasicInfo']['IndexYear'] is 'Nan' or '':
         return False
     elif int(data['BasicInfo']['IndexYear']) > index_year:
+        return False
+    elif int(data['BasicInfo']['IndexYear']) < 1048:
         return False
     elif len(data['Kinship'])+len(data['SocialAssociation']) < min_rel:
         return False
@@ -122,7 +128,7 @@ def dump_dict(data):
     if data['Package']['PersonAuthority']['PersonInfo']['Person']["PersonEntryInfo"] is not "":
         entry_info = data['Package']['PersonAuthority']['PersonInfo']['Person']["PersonEntryInfo"]["Entry"]
 
-        if isinstance(address_info,dict):
+        if isinstance(entry_info,dict):
             d['Entry']=simplify(entry_info,entry_info_list)
         else:
             for item in entry_info_list:
@@ -200,6 +206,8 @@ def simplify(data,list,social=False):
         for item in list:
             if (item in data.keys()) and data[item]!='0' and data[item]!= "未知" and data[item]!="未詳" and data[item]!='':
                 d[item]=data[item]
+            elif item == "Gender":
+                d[item] = "0"
             else:
                 d[item]='Nan'
     else:
@@ -211,12 +219,11 @@ def simplify(data,list,social=False):
     return d
 
 
-path = os.path.abspath('..')
-f = open(path+"/data/raw/1762.json",'r')
-d = load_json(f)
-print(d['Package']['PersonAuthority']['PersonInfo']['Person']['BasicInfo']['ChName'])
-f.close()
-d = dump_dict(d)
-with open(path+"/data/valid/1762.json", 'w') as f:
-    json.dump(d, f,indent=4,ensure_ascii=False)
-f.close()
+# path = os.path.abspath('..')
+# f = open(path+"/data/raw/1762.json",'r')
+# d = load_json(f)
+# f.close()
+# d = dump_dict(d)
+# with open(path+"/data/valid/1762.json", 'w') as f:
+#     json.dump(d, f,indent=4,ensure_ascii=False)
+# f.close()
