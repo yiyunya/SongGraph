@@ -30,12 +30,14 @@ def step(id,index_year, min_rel, min_social_rel, female):
             f = open(path + "/data/raw/"+rel_id+".json", 'r')
             d = load_json(f)
             f.close()
-            d = dump_dict(d)
-            if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
-                valid.append(int(rel_id))
-                with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
-                    json.dump(d, f, indent=4, ensure_ascii=False)
-                valid_kin.append(rel)
+            if d['Package']['PersonAuthority']['PersonInfo'] != "":
+                d = dump_dict(d)
+                if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
+                    valid.append(int(rel_id))
+                    print("Dump No."+d["BasicInfo"]["PersonId"]+" "+d["BasicInfo"]["ChName"])
+                    with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
+                        json.dump(d, f, indent=4, ensure_ascii=False)
+                    valid_kin.append(rel)
         if os.path.exists(path + "/data/valid/"+rel_id+".json"):
             valid_kin.append(rel)
     data['ValidKinship']=valid_kin
@@ -49,12 +51,14 @@ def step(id,index_year, min_rel, min_social_rel, female):
             f = open(path + "/data/raw/"+rel_id+".json", 'r')
             d = load_json(f)
             f.close()
-            d = dump_dict(d)
-            if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
-                valid.append(int(rel_id))
-                with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
-                    json.dump(d, f, indent=4, ensure_ascii=False)
-                valid_social.append(rel)
+            if d['Package']['PersonAuthority']['PersonInfo'] != "":
+                d = dump_dict(d)
+                if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
+                    valid.append(int(rel_id))
+                    print("Dump No." + d["BasicInfo"]["PersonId"] + " " + d["BasicInfo"]["ChName"])
+                    with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
+                        json.dump(d, f, indent=4, ensure_ascii=False)
+                    valid_social.append(rel)
         elif rel_id == '9999':
             status = {"StatusName":rel["AssocName"], "StatusCode":rel["AssocCode"]}
             data['Status'].append(status)
@@ -63,7 +67,7 @@ def step(id,index_year, min_rel, min_social_rel, female):
             valid_social.append(rel)
     data['ValidKinship']=valid_social
     with open(path + "/data/valid/"+str(id)+".json", 'w') as f:
-        json.dump(d, f, indent=4, ensure_ascii=False)
+        json.dump(data, f, indent=4, ensure_ascii=False)
     f.close()
     return all, valid
 
@@ -219,11 +223,11 @@ def simplify(data,list,social=False):
     return d
 
 
-# path = os.path.abspath('..')
-# f = open(path+"/data/raw/1762.json",'r')
-# d = load_json(f)
-# f.close()
-# d = dump_dict(d)
-# with open(path+"/data/valid/1762.json", 'w') as f:
-#     json.dump(d, f,indent=4,ensure_ascii=False)
-# f.close()
+path = os.path.abspath('..')
+f = open(path+"/data/raw/1762.json",'r')
+d = load_json(f)
+f.close()
+d = dump_dict(d)
+with open(path+"/data/valid/1762.json", 'w') as f:
+    json.dump(d, f,indent=4,ensure_ascii=False)
+f.close()

@@ -44,7 +44,7 @@ class Crawler:
             counter += len(v)
             step_counter += 1
             step_time = time.time() - time_start
-            print("After"+str(step_counter)+"steps, "+"valid datasize:"+str(counter))
+            print("After "+str(step_counter)+" steps, "+"valid datasize:"+str(counter))
             print("Time used:"+str(step_time)+"s")
 
         return step_counter, counter
