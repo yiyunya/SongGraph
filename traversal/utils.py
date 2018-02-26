@@ -1,72 +1,108 @@
 # coding: utf-8
 import json
 from urllib import request
+import urllib.error
+import json.decoder
 import os
 
 
-def get_json(id):
+def get_json(id, step_counter):
     url = "http://cbdb.fas.harvard.edu/cbdbapi/person.php?id="+str(id)+"&o=json"
     path = os.path.abspath('..')
-    datapath = path + "/data/raw/"+str(id)+".json"
+    datapath = path + "/data/raw_" + str(step_counter) + "/"+str(id)+".json"
     f = request.urlretrieve(url, datapath)
 
 def load_json(data):
     data = json.load(data)
     return data
 
-def step(id,index_year, min_rel, min_social_rel, female):
+def check_exist(rel_id, step_counter):
+    path = os.path.abspath('..')
+    for i in range(step_counter + 1):
+        if os.path.exists(path + "/data/raw_" + str(i) + "/" + rel_id + ".json"):
+            return True
+    return False
+
+
+def check_valid_exist(rel_id, step_counter):
+    path = os.path.abspath('..')
+    for i in range(step_counter + 1):
+        if os.path.exists(path + "/data/valid_" + str(i) + "/" + rel_id + ".json"):
+            return True
+    return False
+
+def step(id, step_counter, index_year, min_rel, min_social_rel, female):
     path = os.path.abspath('..')
     all = []
     valid = []
-    f = open(path+"/data/valid/"+str(id)+".json",'r')
+    f = open(path+"/data/valid_"+str(step_counter-1)+"/"+str(id)+".json",'r')
     data = load_json(f)
     f.close()
     valid_kin = []
     for rel in data['Kinship']:
         rel_id = rel['KinPersonId']
-        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False) and rel_id != '9999':
-            get_json(int(rel_id))
-            all.append(int(rel_id))
-            f = open(path + "/data/raw/"+rel_id+".json", 'r')
-            d = load_json(f)
-            f.close()
-            if d['Package']['PersonAuthority']['PersonInfo'] != "":
-                d = dump_dict(d)
-                if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
-                    valid.append(int(rel_id))
-                    print("Dump No."+d["BasicInfo"]["PersonId"]+" "+d["BasicInfo"]["ChName"])
-                    with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
-                        json.dump(d, f, indent=4, ensure_ascii=False)
-                    valid_kin.append(rel)
-        if os.path.exists(path + "/data/valid/"+rel_id+".json"):
+        if (rel_id is not 'Nan') and \
+                (check_exist(rel_id, step_counter) is False) and rel_id != '9999' and rel_id != '0':
+            try:
+                get_json(int(rel_id), step_counter)
+                all.append(int(rel_id))
+                f = open(path + "/data/raw_" + str(step_counter) + "/" + rel_id + ".json", 'r')
+
+                d = load_json(f)
+                f.close()
+                if d['Package']['PersonAuthority']['PersonInfo'] != "":
+                    d = dump_dict(d)
+                    if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
+                        valid.append(int(rel_id))
+                        print("Dump No."+d["BasicInfo"]["PersonId"]+" "+d["BasicInfo"]["ChName"])
+                        with open(path + "/data/valid_" + str(step_counter) + "/" + rel_id + ".json", 'w') as f:
+                            json.dump(d, f, indent=4, ensure_ascii=False)
+                        valid_kin.append(rel)
+            except json.decoder.JSONDecodeError as decodeerror:
+                print("Invalid json, skip " + rel_id)
+            except TimeoutError as timeout:
+                print("Timeout, skip " + rel_id)
+            except urllib.error.URLError as urlerror:
+                print("Url error, skip " + rel_id)
+
+
+        if check_valid_exist(rel_id, step_counter):
             valid_kin.append(rel)
     data['ValidKinship']=valid_kin
 
     valid_social = []
     for rel in data['SocialAssociation']:
         rel_id = rel["AssocPersonId"]
-        if (rel_id is not 'Nan') and (os.path.exists(path + "/data/raw/"+rel_id+".json") is False) and rel_id != '9999':
-            get_json(int(rel_id))
-            all.append(int(rel_id))
-            f = open(path + "/data/raw/"+rel_id+".json", 'r')
-            d = load_json(f)
-            f.close()
-            if d['Package']['PersonAuthority']['PersonInfo'] != "":
-                d = dump_dict(d)
-                if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
-                    valid.append(int(rel_id))
-                    print("Dump No." + d["BasicInfo"]["PersonId"] + " " + d["BasicInfo"]["ChName"])
-                    with open(path + "/data/valid/"+rel_id+".json", 'w') as f:
-                        json.dump(d, f, indent=4, ensure_ascii=False)
-                    valid_social.append(rel)
+        if (rel_id is not 'Nan') and (check_exist(rel_id, step_counter) is False) and rel_id != '9999' and rel_id != '0':
+            try:
+                get_json(int(rel_id), step_counter)
+                all.append(int(rel_id))
+                f = open(path + "/data/raw_" + str(step_counter) + "/" + rel_id + ".json", 'r')
+                d = load_json(f)
+                f.close()
+                if d['Package']['PersonAuthority']['PersonInfo'] != "":
+                    d = dump_dict(d)
+                    if check_valid(d,index_year, min_rel, min_social_rel, female) is True:
+                        valid.append(int(rel_id))
+                        print("Dump No." + d["BasicInfo"]["PersonId"] + " " + d["BasicInfo"]["ChName"])
+                        with open(path + "/data/valid_" + str(step_counter) + "/" + rel_id + ".json", 'w') as f:
+                            json.dump(d, f, indent=4, ensure_ascii=False)
+                        valid_social.append(rel)
+
+            except json.decoder.JSONDecodeError as decodeerror:
+                print("Invalid json, skip " + rel_id)
+            except TimeoutError as timeout:
+                print("Timeout, skip " + rel_id)
+            except urllib.error.URLError as urlerror:
+                print("Url error, skip " + rel_id)
         elif rel_id == '9999':
             status = {"StatusName":rel["AssocName"], "StatusCode":rel["AssocCode"]}
             data['Status'].append(status)
 
-        if os.path.exists(path + "/data/valid/"+rel_id+".json"):
+        if check_valid_exist(rel_id, step_counter):
             valid_social.append(rel)
     data['ValidKinship']=valid_social
-    with open(path + "/data/valid/"+str(id)+".json", 'w') as f:
+    with open(path+"/data/valid_"+str(step_counter-1)+"/"+str(id)+".json", 'w') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
     f.close()
     return all, valid
@@ -90,6 +126,8 @@ def check_valid(data, index_year, min_rel, min_social_rel, female):
     elif female is False:
         if data['BasicInfo']['Gender'] is '1':
             return False
+    elif data['BasicInfo']["Dynasty"] == "宋":
+        return False
     return True
 
 
@@ -222,12 +260,34 @@ def simplify(data,list,social=False):
                 d[item]='Nan'
     return d
 
+def step_list(step_counter):
+    list = []
+    path = os.path.abspath('..')
+    dir = path+"/data/valid_"+str(step_counter)+"/"
+    files = os.listdir(dir)
+    for name in files:
+        if (name.endswith(".json")):
+            list.append(int(name[:-5]))
+    return list
+
+
+def step_full_list(step_counter):
+    list = []
+    path = os.path.abspath('..')
+    dir = path+"/data/raw_"+str(step_counter)+"/"
+    files = os.listdir(dir)
+    for name in files:
+        if (name.endswith(".json")):
+            list.append(int(name[:-5]))
+    return list
+
+
 
 path = os.path.abspath('..')
-f = open(path+"/data/raw/1762.json",'r')
+f = open(path+"/data/raw_0/1762.json",'r')
 d = load_json(f)
 f.close()
 d = dump_dict(d)
-with open(path+"/data/valid/1762.json", 'w') as f:
+with open(path+"/data/valid_0/1762.json", 'w') as f:
     json.dump(d, f,indent=4,ensure_ascii=False)
 f.close()

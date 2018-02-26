@@ -1,0 +1,4816 @@
+{
+    "Entry": {
+        "RuShiDoor": "正常科舉",
+        "RuShiType": "科舉: 進士(籠統)",
+        "RuShiYear": "1042"
+    },
+    "Address": {
+        "belongs3_name": "宋朝",
+        "belongs2_name": "江南西路",
+        "AddrName": "臨川",
+        "belongs1_name": "撫州",
+        "AddrType": "籍貫(基本地址)"
+    },
+    "BasicInfo": {
+        "PersonId": "1762",
+        "IndexYear": "1080",
+        "Dynasty": "宋",
+        "Gender": "0",
+        "ChName": "王安石",
+        "EngName": "Wang Anshi",
+        "YearDeath": "1086",
+        "YearBirth": "1021"
+    },
+    "Status": [
+        {
+            "StatusName": "書法家"
+        },
+        {
+            "StatusName": "畫家"
+        },
+        {
+            "StatusName": "好學"
+        },
+        {
+            "StatusName": "[財政官員]"
+        },
+        {
+            "StatusName": "[宰執]"
+        }
+    ],
+    "SocialAssociation": [
+        {
+            "AssocCode": "0",
+            "AssocPersonId": "217",
+            "AssocPersonName": "張方平",
+            "AssocName": "未詳"
+        },
+        {
+            "AssocCode": "0",
+            "AssocPersonId": "971",
+            "AssocPersonName": "李常",
+            "AssocName": "未詳"
+        },
+        {
+            "AssocCode": "0",
+            "AssocPersonId": "1156",
+            "AssocPersonName": "林之奇",
+            "AssocName": "未詳"
+        },
+        {
+            "AssocCode": "0",
+            "AssocPersonId": "1630",
+            "AssocPersonName": "鄧綰",
+            "AssocName": "未詳"
+        },
+        {
+            "AssocCode": "0",
+            "AssocPersonId": "1649",
+            "AssocPersonName": "蔡京",
+            "AssocName": "未詳"
+        },
+        {
+            "AssocCode": "0",
+            "AssocPersonId": "20840",
+            "AssocPersonName": "邵材",
+            "AssocName": "未詳"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "77",
+            "AssocPersonName": "陳升之",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "195",
+            "AssocPersonName": "張吉甫",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "485",
+            "AssocPersonName": "周穜",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "753",
+            "AssocPersonName": "徐禧",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "1024",
+            "AssocPersonName": "李復圭",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "1521",
+            "AssocPersonName": "孫覺",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "1630",
+            "AssocPersonName": "鄧綰",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "1647",
+            "AssocPersonName": "蔡確",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "2032",
+            "AssocPersonName": "楊畏",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "7286",
+            "AssocPersonName": "練亨甫",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "7383",
+            "AssocPersonName": "王子韶",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "12125",
+            "AssocPersonName": "程昉",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "4",
+            "AssocPersonId": "16211",
+            "AssocPersonName": "錢景諶",
+            "AssocName": "是Y的恩主"
+        },
+        {
+            "AssocCode": "7",
+            "AssocPersonId": "1294",
+            "AssocPersonName": "呂嘉問",
+            "AssocName": "黨羽為Y"
+        },
+        {
+            "AssocCode": "8",
+            "AssocPersonId": "11030",
+            "AssocPersonName": "鄭蒨",
+            "AssocName": "黨魁為Y"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "395",
+            "AssocPersonName": "趙鼎臣",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "728",
+            "AssocPersonName": "謝景溫",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "728",
+            "AssocPersonName": "謝景溫",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "971",
+            "AssocPersonName": "李常",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "1521",
+            "AssocPersonName": "孫覺",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "1897",
+            "AssocPersonName": "王存",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "3799",
+            "AssocPersonName": "宋保國",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "12989",
+            "AssocPersonName": "潘興嗣",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "13574",
+            "AssocPersonName": "張伯孫",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "19871",
+            "AssocPersonName": "王該",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "39075",
+            "AssocPersonName": "饒竦",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "40134",
+            "AssocPersonName": "求仲弓",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "40401",
+            "AssocPersonName": "釋贊元",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "9",
+            "AssocPersonId": "53771",
+            "AssocPersonName": "釋瑞新",
+            "AssocName": "友"
+        },
+        {
+            "AssocCode": "10",
+            "AssocPersonId": "22202",
+            "AssocPersonName": "王越石",
+            "AssocName": "同年友"
+        },
+        {
+            "AssocCode": "11",
+            "AssocPersonId": "12125",
+            "AssocPersonName": "程昉",
+            "AssocName": "彈劾"
+        },
+        {
+            "AssocCode": "12",
+            "AssocPersonId": "11135",
+            "AssocPersonName": "余象",
+            "AssocName": "被Y彈劾"
+        },
+        {
+            "AssocCode": "12",
+            "AssocPersonId": "13916",
+            "AssocPersonName": "張戩",
+            "AssocName": "被Y彈劾"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "147",
+            "AssocPersonName": "錢公輔",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "147",
+            "AssocPersonName": "錢公輔",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "662",
+            "AssocPersonName": "韓宗師",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "1201",
+            "AssocPersonName": "劉彝",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "1201",
+            "AssocPersonName": "劉彝",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "1314",
+            "AssocPersonName": "呂公著",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "1314",
+            "AssocPersonName": "呂公著",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "1323",
+            "AssocPersonName": "呂升卿",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "3828",
+            "AssocPersonName": "唐坰",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "7286",
+            "AssocPersonName": "練亨甫",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "7383",
+            "AssocPersonName": "王子韶",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "10660",
+            "AssocPersonName": "劉涇",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "15074",
+            "AssocPersonName": "陳敏",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "21072",
+            "AssocPersonName": "石賡",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "24811",
+            "AssocPersonName": "常秩",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "27078",
+            "AssocPersonName": "陳樞",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "27078",
+            "AssocPersonName": "陳樞",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "39051",
+            "AssocPersonName": "饒子儀",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "40158",
+            "AssocPersonName": "成倬",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "43955",
+            "AssocPersonName": "段充",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "13",
+            "AssocPersonId": "43955",
+            "AssocPersonName": "段充",
+            "AssocName": "推薦"
+        },
+        {
+            "AssocCode": "14",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "被Y推薦"
+        },
+        {
+            "AssocCode": "14",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "被Y推薦"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "1078",
+            "AssocPersonName": "李師中",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "1542",
+            "AssocPersonName": "孫升",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "3828",
+            "AssocPersonName": "唐坰",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "7053",
+            "AssocPersonName": "呂誨",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "11688",
+            "AssocPersonName": "高氏(趙曙妻)",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "12124",
+            "AssocPersonName": "盛陶",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "25203",
+            "AssocPersonName": "趙粹中",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "27385",
+            "AssocPersonName": "魏掞之",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "16",
+            "AssocPersonId": "43344",
+            "AssocPersonName": "胡舜元",
+            "AssocName": "遭到Y的反對/攻訐"
+        },
+        {
+            "AssocCode": "17",
+            "AssocPersonId": "16667",
+            "AssocPersonName": "朱壽昌",
+            "AssocName": "被Y欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "333",
+            "AssocPersonName": "章惇",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "485",
+            "AssocPersonName": "周穜",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "1370",
+            "AssocPersonName": "莫君陳",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "1453",
+            "AssocPersonName": "沈遼",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "3568",
+            "AssocPersonName": "林積",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "8089",
+            "AssocPersonName": "劉摯",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "12278",
+            "AssocPersonName": "蕭汝為",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "15854",
+            "AssocPersonName": "郟僑",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "16400",
+            "AssocPersonName": "周常",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "16667",
+            "AssocPersonName": "朱壽昌",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "19350",
+            "AssocPersonName": "葛良嗣",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "19561",
+            "AssocPersonName": "李璋",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "18",
+            "AssocPersonId": "51204",
+            "AssocPersonName": "潘溫之",
+            "AssocName": "欣賞/器重"
+        },
+        {
+            "AssocCode": "19",
+            "AssocPersonId": "208",
+            "AssocPersonName": "張鑄",
+            "AssocName": "為Y之門人"
+        },
+        {
+            "AssocCode": "20",
+            "AssocPersonId": "7398",
+            "AssocPersonName": "楊訓",
+            "AssocName": "門人為Y"
+        },
+        {
+            "AssocCode": "20",
+            "AssocPersonId": "40154",
+            "AssocPersonName": "顧棠",
+            "AssocName": "門人為Y"
+        },
+        {
+            "AssocCode": "20",
+            "AssocPersonId": "40156",
+            "AssocPersonName": "張僅",
+            "AssocName": "門人為Y"
+        },
+        {
+            "AssocCode": "20",
+            "AssocPersonId": "43523",
+            "AssocPersonName": "俞紫琳",
+            "AssocName": "門人為Y"
+        },
+        {
+            "AssocCode": "20",
+            "AssocPersonId": "45475",
+            "AssocPersonName": "許允成",
+            "AssocName": "門人為Y"
+        },
+        {
+            "AssocCode": "21",
+            "AssocPersonId": "1471",
+            "AssocPersonName": "時孝孫",
+            "AssocName": "與Y結黨"
+        },
+        {
+            "AssocCode": "22",
+            "AssocPersonId": "208",
+            "AssocPersonName": "張鑄",
+            "AssocName": "為Y之學生"
+        },
+        {
+            "AssocCode": "22",
+            "AssocPersonId": "40266",
+            "AssocPersonName": "杜子野",
+            "AssocName": "為Y之學生"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "941",
+            "AssocPersonName": "龔原",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "1097",
+            "AssocPersonName": "李定",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "1414",
+            "AssocPersonName": "鮑由",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "1648",
+            "AssocPersonName": "蔡肇",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "3328",
+            "AssocPersonName": "韓宗厚",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "3970",
+            "AssocPersonName": "王伯起",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "7384",
+            "AssocPersonName": "王無咎",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "7404",
+            "AssocPersonName": "葉濤",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "8131",
+            "AssocPersonName": "蔡卞",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "14607",
+            "AssocPersonName": "陳度",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "15296",
+            "AssocPersonName": "鄭俠",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "20884",
+            "AssocPersonName": "沈銖",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "21345",
+            "AssocPersonName": "孫適",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "21365",
+            "AssocPersonName": "蔡淵",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "21365",
+            "AssocPersonName": "蔡淵",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "26614",
+            "AssocPersonName": "王沇之",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "27577",
+            "AssocPersonName": "馬希孟",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "27578",
+            "AssocPersonName": "孟厚",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "27580",
+            "AssocPersonName": "汪澥",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "40154",
+            "AssocPersonName": "顧棠",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "23",
+            "AssocPersonId": "47587",
+            "AssocPersonName": "陳輔",
+            "AssocName": "學生為Y"
+        },
+        {
+            "AssocCode": "24",
+            "AssocPersonId": "1483",
+            "AssocPersonName": "舒亶",
+            "AssocName": "辟"
+        },
+        {
+            "AssocCode": "24",
+            "AssocPersonId": "48199",
+            "AssocPersonName": "崔公度",
+            "AssocName": "辟"
+        },
+        {
+            "AssocCode": "26",
+            "AssocPersonId": "753",
+            "AssocPersonName": "徐禧",
+            "AssocName": "得到Y的支持"
+        },
+        {
+            "AssocCode": "26",
+            "AssocPersonId": "1445",
+            "AssocPersonName": "沈季長",
+            "AssocName": "得到Y的支持"
+        },
+        {
+            "AssocCode": "26",
+            "AssocPersonId": "4154",
+            "AssocPersonName": "蔡鞗",
+            "AssocName": "得到Y的支持"
+        },
+        {
+            "AssocCode": "26",
+            "AssocPersonId": "9006",
+            "AssocPersonName": "趙頊",
+            "AssocName": "得到Y的支持"
+        },
+        {
+            "AssocCode": "26",
+            "AssocPersonId": "24811",
+            "AssocPersonName": "常秩",
+            "AssocName": "得到Y的支持"
+        },
+        {
+            "AssocCode": "27",
+            "AssocPersonId": "800",
+            "AssocPersonName": "薛向",
+            "AssocName": "支持"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "748",
+            "AssocPersonName": "徐九思",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "1316",
+            "AssocPersonName": "呂公弼",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "1324",
+            "AssocPersonName": "呂陶",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "1521",
+            "AssocPersonName": "孫覺",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "11337",
+            "AssocPersonName": "薛利和",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "13378",
+            "AssocPersonName": "鄭獬",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "16211",
+            "AssocPersonName": "錢景諶",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "29",
+            "AssocPersonId": "38678",
+            "AssocPersonName": "石汝礪",
+            "AssocName": "排擠"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "267",
+            "AssocPersonName": "張保雍",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "267",
+            "AssocPersonName": "張保雍",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "1571",
+            "AssocPersonName": "宋敏求",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "2026",
+            "AssocPersonName": "楊畋",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "2026",
+            "AssocPersonName": "楊畋",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "3968",
+            "AssocPersonName": "王雱",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "3968",
+            "AssocPersonName": "王雱",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "7082",
+            "AssocPersonName": "王益",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "18643",
+            "AssocPersonName": "許規",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "18647",
+            "AssocPersonName": "許恢",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "32",
+            "AssocPersonId": "24276",
+            "AssocPersonName": "孫侔",
+            "AssocName": "為Y所著書作序"
+        },
+        {
+            "AssocCode": "33",
+            "AssocPersonId": "4001",
+            "AssocPersonName": "魏了翁",
+            "AssocName": "書序由Y所作"
+        },
+        {
+            "AssocCode": "33",
+            "AssocPersonId": "4001",
+            "AssocPersonName": "魏了翁",
+            "AssocName": "書序由Y所作"
+        },
+        {
+            "AssocCode": "33",
+            "AssocPersonId": "10084",
+            "AssocPersonName": "吳澄",
+            "AssocName": "書序由Y所作"
+        },
+        {
+            "AssocCode": "33",
+            "AssocPersonId": "15449",
+            "AssocPersonName": "黃次山",
+            "AssocName": "書序由Y所作"
+        },
+        {
+            "AssocCode": "35",
+            "AssocPersonId": "1414",
+            "AssocPersonName": "鮑由",
+            "AssocName": "該學派的成員為Y"
+        },
+        {
+            "AssocCode": "35",
+            "AssocPersonId": "11817",
+            "AssocPersonName": "熊蕃",
+            "AssocName": "該學派的成員為Y"
+        },
+        {
+            "AssocCode": "35",
+            "AssocPersonId": "30223",
+            "AssocPersonName": "黃朝英",
+            "AssocName": "該學派的成員為Y"
+        },
+        {
+            "AssocCode": "36",
+            "AssocPersonId": "40266",
+            "AssocPersonName": "杜子野",
+            "AssocName": "為Y之弟子"
+        },
+        {
+            "AssocCode": "38",
+            "AssocPersonId": "40750",
+            "AssocPersonName": "李不疑",
+            "AssocName": "為Y作哀辭 [併入167]"
+        },
+        {
+            "AssocCode": "43",
+            "AssocPersonId": "3505",
+            "AssocPersonName": "李虛舟",
+            "AssocName": "墓誌銘由Y所作"
+        },
+        {
+            "AssocCode": "43",
+            "AssocPersonId": "15296",
+            "AssocPersonName": "鄭俠",
+            "AssocName": "墓誌銘由Y所作"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "118",
+            "AssocPersonName": "程琳",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "225",
+            "AssocPersonName": "張瓌",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "480",
+            "AssocPersonName": "周嘉正",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "480",
+            "AssocPersonName": "周嘉正",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "718",
+            "AssocPersonName": "蕭固",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "718",
+            "AssocPersonName": "蕭固",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "723",
+            "AssocPersonName": "蕭定基",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "727",
+            "AssocPersonName": "謝絳",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1048",
+            "AssocPersonName": "李寬",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1048",
+            "AssocPersonName": "李寬",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1216",
+            "AssocPersonName": "劉牧",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1216",
+            "AssocPersonName": "劉牧",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1353",
+            "AssocPersonName": "馬遵",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1353",
+            "AssocPersonName": "馬遵",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1361",
+            "AssocPersonName": "梅詢",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1449",
+            "AssocPersonName": "沈遘",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1449",
+            "AssocPersonName": "沈遘",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1489",
+            "AssocPersonName": "蘇安世",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1489",
+            "AssocPersonName": "蘇安世",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1514",
+            "AssocPersonName": "孫長卿",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1531",
+            "AssocPersonName": "孫抗",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1531",
+            "AssocPersonName": "孫抗",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1617",
+            "AssocPersonName": "田況",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1617",
+            "AssocPersonName": "田況",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1781",
+            "AssocPersonName": "王贄",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1856",
+            "AssocPersonName": "王平",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "1856",
+            "AssocPersonName": "王平",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3013",
+            "AssocPersonName": "晁仲參",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3013",
+            "AssocPersonName": "晁仲參",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3054",
+            "AssocPersonName": "陳之祥",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3054",
+            "AssocPersonName": "陳之祥",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3055",
+            "AssocPersonName": "陳執古",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3055",
+            "AssocPersonName": "陳執古",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3056",
+            "AssocPersonName": "陳執禮",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3058",
+            "AssocPersonName": "陳之元",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3058",
+            "AssocPersonName": "陳之元",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3150",
+            "AssocPersonName": "張奎",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3250",
+            "AssocPersonName": "周彥先",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3250",
+            "AssocPersonName": "周彥先",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3307",
+            "AssocPersonName": "傅立",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3505",
+            "AssocPersonName": "李虛舟",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3554",
+            "AssocPersonName": "李餘慶",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3554",
+            "AssocPersonName": "李餘慶",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3941",
+            "AssocPersonName": "王洙",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3965",
+            "AssocPersonName": "王貫之",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "4017",
+            "AssocPersonName": "吳敏",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "4020",
+            "AssocPersonName": "吳蕡",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "4020",
+            "AssocPersonName": "吳蕡",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5011",
+            "AssocPersonName": "王文淑",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5026",
+            "AssocPersonName": "王氏(周彥先妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5051",
+            "AssocPersonName": "夏侯氏(謝絳妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5101",
+            "AssocPersonName": "翟氏(翟希言女)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5101",
+            "AssocPersonName": "翟氏(翟希言女)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5112",
+            "AssocPersonName": "王氏(孫長卿妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5112",
+            "AssocPersonName": "王氏(孫長卿妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5124",
+            "AssocPersonName": "吳氏(曾易占妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5130",
+            "AssocPersonName": "劉氏(王贄妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5219",
+            "AssocPersonName": "李氏(鄭紓妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5252",
+            "AssocPersonName": "蔣氏(錢冶妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5258",
+            "AssocPersonName": "黃氏(曾致堯妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5262",
+            "AssocPersonName": "李氏(趙世岳妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5262",
+            "AssocPersonName": "李氏(趙世岳妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5354",
+            "AssocPersonName": "楊氏(孫昌齡母)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5399",
+            "AssocPersonName": "齊氏",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "5424",
+            "AssocPersonName": "徐氏(金君卿母)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7076",
+            "AssocPersonName": "王安國",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7099",
+            "AssocPersonName": "楊忱",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7099",
+            "AssocPersonName": "楊忱",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7102",
+            "AssocPersonName": "陳見素",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7173",
+            "AssocPersonName": "張彥博",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7173",
+            "AssocPersonName": "張彥博",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7174",
+            "AssocPersonName": "張瑗",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7174",
+            "AssocPersonName": "張瑗",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7240",
+            "AssocPersonName": "謝景平",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7240",
+            "AssocPersonName": "謝景平",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7323",
+            "AssocPersonName": "沈周",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7323",
+            "AssocPersonName": "沈周",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7324",
+            "AssocPersonName": "沈扶",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7326",
+            "AssocPersonName": "沈播",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7363",
+            "AssocPersonName": "曾易占",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7363",
+            "AssocPersonName": "曾易占",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7363",
+            "AssocPersonName": "曾易占",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7374",
+            "AssocPersonName": "王逢",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7374",
+            "AssocPersonName": "王逢",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7384",
+            "AssocPersonName": "王無咎",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "7384",
+            "AssocPersonName": "王無咎",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "8031",
+            "AssocPersonName": "賈昌朝",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "8033",
+            "AssocPersonName": "周起",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "8103",
+            "AssocPersonName": "馬知節",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "10178",
+            "AssocPersonName": "周濤",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "10178",
+            "AssocPersonName": "周濤",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "10186",
+            "AssocPersonName": "周茂先",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "10186",
+            "AssocPersonName": "周茂先",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "10414",
+            "AssocPersonName": "趙世仍",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "10532",
+            "AssocPersonName": "趙宗述",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "11791",
+            "AssocPersonName": "孫錫",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "11791",
+            "AssocPersonName": "孫錫",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "11940",
+            "AssocPersonName": "刁A",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "12272",
+            "AssocPersonName": "蕭化基",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "12272",
+            "AssocPersonName": "蕭化基",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "12297",
+            "AssocPersonName": "蕭洵",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "12297",
+            "AssocPersonName": "蕭洵",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "13377",
+            "AssocPersonName": "鄭紆",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "14074",
+            "AssocPersonName": "章友直",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "14074",
+            "AssocPersonName": "章友直",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "14111",
+            "AssocPersonName": "陸廣",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "14111",
+            "AssocPersonName": "陸廣",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "14787",
+            "AssocPersonName": "趙世耀",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "15532",
+            "AssocPersonName": "金X臣",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "15939",
+            "AssocPersonName": "孔道輔",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "15939",
+            "AssocPersonName": "孔道輔",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "15946",
+            "AssocPersonName": "孔旼",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "15946",
+            "AssocPersonName": "孔旼",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "16173",
+            "AssocPersonName": "錢冶",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "16579",
+            "AssocPersonName": "曾致堯",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "16579",
+            "AssocPersonName": "曾致堯",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "16579",
+            "AssocPersonName": "曾致堯",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18268",
+            "AssocPersonName": "仲訥",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18268",
+            "AssocPersonName": "仲訥",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18537",
+            "AssocPersonName": "謝景回",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18648",
+            "AssocPersonName": "許平",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18648",
+            "AssocPersonName": "許平",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18873",
+            "AssocPersonName": "吳蕃",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "18873",
+            "AssocPersonName": "吳蕃",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19349",
+            "AssocPersonName": "葛源",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19349",
+            "AssocPersonName": "葛源",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19350",
+            "AssocPersonName": "葛良嗣",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19350",
+            "AssocPersonName": "葛良嗣",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19611",
+            "AssocPersonName": "李陟",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19904",
+            "AssocPersonName": "王文亮",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "19904",
+            "AssocPersonName": "王文亮",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "20691",
+            "AssocPersonName": "馬仲舒",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "20691",
+            "AssocPersonName": "馬仲舒",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "20849",
+            "AssocPersonName": "邵景先",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "20849",
+            "AssocPersonName": "邵景先",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "20899",
+            "AssocPersonName": "沈兼",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "20899",
+            "AssocPersonName": "沈兼",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "21275",
+            "AssocPersonName": "孫貫之",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "21429",
+            "AssocPersonName": "句希仲",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "21429",
+            "AssocPersonName": "句希仲",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "21619",
+            "AssocPersonName": "丁寶臣",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "21944",
+            "AssocPersonName": "王安仁",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "22199",
+            "AssocPersonName": "王乙",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "22199",
+            "AssocPersonName": "王乙",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "22230",
+            "AssocPersonName": "王君玉",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "22566",
+            "AssocPersonName": "楊翱",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "22566",
+            "AssocPersonName": "楊翱",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "22566",
+            "AssocPersonName": "楊翱",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "24811",
+            "AssocPersonName": "常秩",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "25459",
+            "AssocPersonName": "趙師旦",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "25459",
+            "AssocPersonName": "趙師旦",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "25979",
+            "AssocPersonName": "趙宗辯",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27097",
+            "AssocPersonName": "鄭詒",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27109",
+            "AssocPersonName": "楊公適",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27110",
+            "AssocPersonName": "張文剛",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27110",
+            "AssocPersonName": "張文剛",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27115",
+            "AssocPersonName": "張祹",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27115",
+            "AssocPersonName": "張祹",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27762",
+            "AssocPersonName": "郭維",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "27762",
+            "AssocPersonName": "郭維",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "38062",
+            "AssocPersonName": "王師錫",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "38062",
+            "AssocPersonName": "王師錫",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "40029",
+            "AssocPersonName": "魏氏(沈遵母)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "40029",
+            "AssocPersonName": "魏氏(沈遵母)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "40470",
+            "AssocPersonName": "杜渙",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "40470",
+            "AssocPersonName": "杜渙",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "40914",
+            "AssocPersonName": "李問",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "40914",
+            "AssocPersonName": "李問",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "41353",
+            "AssocPersonName": "吳申",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "41356",
+            "AssocPersonName": "吳某(吳申父)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "41356",
+            "AssocPersonName": "吳某(吳申父)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "41837",
+            "AssocPersonName": "吳興宗",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "41837",
+            "AssocPersonName": "吳興宗",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "42820",
+            "AssocPersonName": "征集",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "43352",
+            "AssocPersonName": "胡某(胡舜元父)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "45682",
+            "AssocPersonName": "張式",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "45682",
+            "AssocPersonName": "張式",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "45771",
+            "AssocPersonName": "刁某",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "46094",
+            "AssocPersonName": "胡某",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "49501",
+            "AssocPersonName": "楊文詡",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "50532",
+            "AssocPersonName": "趙仲行",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "50543",
+            "AssocPersonName": "趙仲厖",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "50556",
+            "AssocPersonName": "武氏(趙仲焉妻)",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "44",
+            "AssocPersonId": "50591",
+            "AssocPersonName": "趙仲夔",
+            "AssocName": "為Y作墓誌銘"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "669",
+            "AssocPersonName": "韓元吉",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "870",
+            "AssocPersonName": "洪适",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "1759",
+            "AssocPersonName": "汪應辰",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "1759",
+            "AssocPersonName": "汪應辰",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "1759",
+            "AssocPersonName": "汪應辰",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3257",
+            "AssocPersonName": "朱熹",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3257",
+            "AssocPersonName": "朱熹",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3257",
+            "AssocPersonName": "朱熹",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3257",
+            "AssocPersonName": "朱熹",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3484",
+            "AssocPersonName": "李之儀",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3484",
+            "AssocPersonName": "李之儀",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3484",
+            "AssocPersonName": "李之儀",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3484",
+            "AssocPersonName": "李之儀",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3484",
+            "AssocPersonName": "李之儀",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3484",
+            "AssocPersonName": "李之儀",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3595",
+            "AssocPersonName": "劉克莊",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3640",
+            "AssocPersonName": "陸游",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "3640",
+            "AssocPersonName": "陸游",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "4001",
+            "AssocPersonName": "魏了翁",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "4001",
+            "AssocPersonName": "魏了翁",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7111",
+            "AssocPersonName": "黃庭堅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7197",
+            "AssocPersonName": "周必大",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7197",
+            "AssocPersonName": "周必大",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "7197",
+            "AssocPersonName": "周必大",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "8098",
+            "AssocPersonName": "陸佃",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "10389",
+            "AssocPersonName": "袁桷",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "10565",
+            "AssocPersonName": "胡銓",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "10566",
+            "AssocPersonName": "楊萬里",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "10801",
+            "AssocPersonName": "虞集",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "27397",
+            "AssocPersonName": "員興宗",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "27727",
+            "AssocPersonName": "方回",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "27770",
+            "AssocPersonName": "鄧肅",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "27957",
+            "AssocPersonName": "吳師道",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "27957",
+            "AssocPersonName": "吳師道",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "30727",
+            "AssocPersonName": "釋惠洪",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "45",
+            "AssocPersonId": "37205",
+            "AssocPersonName": "曾耒",
+            "AssocName": "書跋由Y所作"
+        },
+        {
+            "AssocCode": "46",
+            "AssocPersonId": "332",
+            "AssocPersonName": "張詠",
+            "AssocName": "為Y所著書作跋"
+        },
+        {
+            "AssocCode": "46",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "為Y所著書作跋"
+        },
+        {
+            "AssocCode": "50",
+            "AssocPersonId": "12988",
+            "AssocPersonName": "楊傑",
+            "AssocName": "從遊者為Y"
+        },
+        {
+            "AssocCode": "50",
+            "AssocPersonId": "19266",
+            "AssocPersonName": "郭逢原",
+            "AssocName": "從遊者為Y"
+        },
+        {
+            "AssocCode": "50",
+            "AssocPersonId": "21345",
+            "AssocPersonName": "孫適",
+            "AssocName": "從遊者為Y"
+        },
+        {
+            "AssocCode": "50",
+            "AssocPersonId": "24276",
+            "AssocPersonName": "孫侔",
+            "AssocName": "從遊者為Y"
+        },
+        {
+            "AssocCode": "50",
+            "AssocPersonId": "43524",
+            "AssocPersonName": "俞紫芝",
+            "AssocName": "從遊者為Y"
+        },
+        {
+            "AssocCode": "61",
+            "AssocPersonId": "147",
+            "AssocPersonName": "錢公輔",
+            "AssocName": "不合"
+        },
+        {
+            "AssocCode": "61",
+            "AssocPersonId": "375",
+            "AssocPersonName": "趙抃",
+            "AssocName": "不合"
+        },
+        {
+            "AssocCode": "61",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "不合"
+        },
+        {
+            "AssocCode": "61",
+            "AssocPersonId": "1453",
+            "AssocPersonName": "沈遼",
+            "AssocName": "不合"
+        },
+        {
+            "AssocCode": "61",
+            "AssocPersonId": "1488",
+            "AssocPersonName": "司馬光",
+            "AssocName": "不合"
+        },
+        {
+            "AssocCode": "61",
+            "AssocPersonId": "3279",
+            "AssocPersonName": "范鎮",
+            "AssocName": "不合"
+        },
+        {
+            "AssocCode": "67",
+            "AssocPersonId": "40158",
+            "AssocPersonName": "成倬",
+            "AssocName": "幕僚為Y"
+        },
+        {
+            "AssocCode": "68",
+            "AssocPersonId": "10346",
+            "AssocPersonName": "汪元吉",
+            "AssocName": "節行為Y所稱道"
+        },
+        {
+            "AssocCode": "69",
+            "AssocPersonId": "1024",
+            "AssocPersonName": "李復圭",
+            "AssocName": "稱道Y之節行"
+        },
+        {
+            "AssocCode": "71",
+            "AssocPersonId": "11247",
+            "AssocPersonName": "方惟深",
+            "AssocName": "稱道Y的詩作"
+        },
+        {
+            "AssocCode": "71",
+            "AssocPersonId": "11247",
+            "AssocPersonName": "方惟深",
+            "AssocName": "稱道Y的詩作"
+        },
+        {
+            "AssocCode": "71",
+            "AssocPersonId": "20450",
+            "AssocPersonName": "劉季孫",
+            "AssocName": "稱道Y的詩作"
+        },
+        {
+            "AssocCode": "71",
+            "AssocPersonId": "24412",
+            "AssocPersonName": "李商隱",
+            "AssocName": "稱道Y的詩作"
+        },
+        {
+            "AssocCode": "71",
+            "AssocPersonId": "53511",
+            "AssocPersonName": "釋清順",
+            "AssocName": "稱道Y的詩作"
+        },
+        {
+            "AssocCode": "75",
+            "AssocPersonId": "49245",
+            "AssocPersonName": "雍秀才",
+            "AssocName": "被Y以詩諷忤"
+        },
+        {
+            "AssocCode": "83",
+            "AssocPersonId": "1717",
+            "AssocPersonName": "祖無擇",
+            "AssocName": "忌/惡"
+        },
+        {
+            "AssocCode": "83",
+            "AssocPersonId": "1953",
+            "AssocPersonName": "文彥博",
+            "AssocName": "忌/惡"
+        },
+        {
+            "AssocCode": "83",
+            "AssocPersonId": "1953",
+            "AssocPersonName": "文彥博",
+            "AssocName": "忌/惡"
+        },
+        {
+            "AssocCode": "83",
+            "AssocPersonId": "13378",
+            "AssocPersonName": "鄭獬",
+            "AssocName": "忌/惡"
+        },
+        {
+            "AssocCode": "89",
+            "AssocPersonId": "15296",
+            "AssocPersonName": "鄭俠",
+            "AssocName": "字說、名述由Y所作"
+        },
+        {
+            "AssocCode": "95",
+            "AssocPersonId": "12313",
+            "AssocPersonName": "李定",
+            "AssocName": "相識"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "209",
+            "AssocPersonName": "張巨",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "628",
+            "AssocPersonName": "富弼",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "11337",
+            "AssocPersonName": "薛利和",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "17517",
+            "AssocPersonName": "俞汝尚",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "17517",
+            "AssocPersonName": "俞汝尚",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "20419",
+            "AssocPersonName": "劉恕",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "20419",
+            "AssocPersonName": "劉恕",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "107",
+            "AssocPersonId": "43033",
+            "AssocPersonName": "孫立節",
+            "AssocName": "拒絕在Y的主政期出仕"
+        },
+        {
+            "AssocCode": "114",
+            "AssocPersonId": "18876",
+            "AssocPersonName": "吳顯道",
+            "AssocName": "相唱和"
+        },
+        {
+            "AssocCode": "117",
+            "AssocPersonId": "1587",
+            "AssocPersonName": "譚掞",
+            "AssocName": "同學、同門"
+        },
+        {
+            "AssocCode": "117",
+            "AssocPersonId": "26610",
+            "AssocPersonName": "王介",
+            "AssocName": "同學、同門"
+        },
+        {
+            "AssocCode": "117",
+            "AssocPersonId": "26610",
+            "AssocPersonName": "王介",
+            "AssocName": "同學、同門"
+        },
+        {
+            "AssocCode": "117",
+            "AssocPersonId": "43344",
+            "AssocPersonName": "胡舜元",
+            "AssocName": "同學、同門"
+        },
+        {
+            "AssocCode": "131",
+            "AssocPersonId": "748",
+            "AssocPersonName": "徐九思",
+            "AssocName": "門客為Y"
+        },
+        {
+            "AssocCode": "131",
+            "AssocPersonId": "1316",
+            "AssocPersonName": "呂公弼",
+            "AssocName": "門客為Y"
+        },
+        {
+            "AssocCode": "131",
+            "AssocPersonId": "1324",
+            "AssocPersonName": "呂陶",
+            "AssocName": "門客為Y"
+        },
+        {
+            "AssocCode": "131",
+            "AssocPersonId": "11337",
+            "AssocPersonName": "薛利和",
+            "AssocName": "門客為Y"
+        },
+        {
+            "AssocCode": "131",
+            "AssocPersonId": "13378",
+            "AssocPersonName": "鄭獬",
+            "AssocName": "門客為Y"
+        },
+        {
+            "AssocCode": "131",
+            "AssocPersonId": "16211",
+            "AssocPersonName": "錢景諶",
+            "AssocName": "門客為Y"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "788",
+            "AssocPersonName": "許逖",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "7082",
+            "AssocPersonName": "王益",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "18644",
+            "AssocPersonName": "許遂",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "18645",
+            "AssocPersonName": "許迥",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "18648",
+            "AssocPersonName": "許平",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "18649",
+            "AssocPersonName": "許俞",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "133",
+            "AssocPersonId": "45386",
+            "AssocPersonName": "許均",
+            "AssocName": "為Y作傳"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1722",
+            "AssocPersonName": "杜杞",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1722",
+            "AssocPersonName": "杜杞",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1722",
+            "AssocPersonName": "杜杞",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1960",
+            "AssocPersonName": "吳充",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1960",
+            "AssocPersonName": "吳充",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "3739",
+            "AssocPersonName": "盛京",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "3739",
+            "AssocPersonName": "盛京",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "7304",
+            "AssocPersonName": "呂公綽",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "7304",
+            "AssocPersonName": "呂公綽",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "7363",
+            "AssocPersonName": "曾易占",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "8043",
+            "AssocPersonName": "范仲淹",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "8043",
+            "AssocPersonName": "范仲淹",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "8109",
+            "AssocPersonName": "盛度",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "8136",
+            "AssocPersonName": "曾公亮",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "8136",
+            "AssocPersonName": "曾公亮",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "10178",
+            "AssocPersonName": "周濤",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "10178",
+            "AssocPersonName": "周濤",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "11941",
+            "AssocPersonName": "刁繹",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "11941",
+            "AssocPersonName": "刁繹",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "20899",
+            "AssocPersonName": "沈兼",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "20899",
+            "AssocPersonName": "沈兼",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "21619",
+            "AssocPersonName": "丁寶臣",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "21619",
+            "AssocPersonName": "丁寶臣",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "40401",
+            "AssocPersonName": "釋贊元",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "41650",
+            "AssocPersonName": "束向",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "145",
+            "AssocPersonName": "錢勰",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "217",
+            "AssocPersonName": "張方平",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "559",
+            "AssocPersonName": "范純仁",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "607",
+            "AssocPersonName": "馮京",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "735",
+            "AssocPersonName": "鮮于侁",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "748",
+            "AssocPersonName": "徐九思",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1220",
+            "AssocPersonName": "劉攽",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1316",
+            "AssocPersonName": "呂公弼",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1324",
+            "AssocPersonName": "呂陶",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1326",
+            "AssocPersonName": "呂大忠",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1453",
+            "AssocPersonName": "沈遼",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1493",
+            "AssocPersonName": "蘇轍",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "1593",
+            "AssocPersonName": "唐介",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "3394",
+            "AssocPersonName": "胡安國",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "3439",
+            "AssocPersonName": "孔文仲",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "3767",
+            "AssocPersonName": "蘇軾",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "4220",
+            "AssocPersonName": "曹氏(趙禎妻)",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "7005",
+            "AssocPersonName": "陳襄",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "8162",
+            "AssocPersonName": "吳奎",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "11030",
+            "AssocPersonName": "鄭蒨",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "16594",
+            "AssocPersonName": "楊申",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "20840",
+            "AssocPersonName": "邵材",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "21820",
+            "AssocPersonName": "錢顗",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "26418",
+            "AssocPersonName": "家勤國",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "38772",
+            "AssocPersonName": "王伋",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "39075",
+            "AssocPersonName": "饒竦",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "40169",
+            "AssocPersonName": "汪齊",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "137",
+            "AssocPersonId": "43069",
+            "AssocPersonName": "周諝",
+            "AssocName": "其政策被Y反對/不支持"
+        },
+        {
+            "AssocCode": "141",
+            "AssocPersonId": "21346",
+            "AssocPersonName": "孫邈",
+            "AssocName": "其學得到Y之讚揚"
+        },
+        {
+            "AssocCode": "143",
+            "AssocPersonId": "1200",
+            "AssocPersonName": "劉庠",
+            "AssocName": "會面的邀請被Y拒絕"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "118",
+            "AssocPersonName": "程琳",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "245",
+            "AssocPersonName": "張若谷",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "245",
+            "AssocPersonName": "張若谷",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "664",
+            "AssocPersonName": "韓宗彥",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "664",
+            "AssocPersonName": "韓宗彥",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "911",
+            "AssocPersonName": "高若訥",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "911",
+            "AssocPersonName": "高若訥",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "911",
+            "AssocPersonName": "高若訥",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1024",
+            "AssocPersonName": "李復圭",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1024",
+            "AssocPersonName": "李復圭",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1085",
+            "AssocPersonName": "李壽朋",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1085",
+            "AssocPersonName": "李壽朋",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1294",
+            "AssocPersonName": "呂嘉問",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1294",
+            "AssocPersonName": "呂嘉問",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1348",
+            "AssocPersonName": "馬玘",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1348",
+            "AssocPersonName": "馬玘",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1353",
+            "AssocPersonName": "馬遵",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1353",
+            "AssocPersonName": "馬遵",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1449",
+            "AssocPersonName": "沈遘",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1449",
+            "AssocPersonName": "沈遘",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1635",
+            "AssocPersonName": "刁約",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "1635",
+            "AssocPersonName": "刁約",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "41650",
+            "AssocPersonName": "束向",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "47455",
+            "AssocPersonName": "陳浚",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "145",
+            "AssocPersonId": "49662",
+            "AssocPersonName": "虞靖之",
+            "AssocName": "為Y作祭文"
+        },
+        {
+            "AssocCode": "146",
+            "AssocPersonId": "1521",
+            "AssocPersonName": "孫覺",
+            "AssocName": "祭文由Y所作"
+        },
+        {
+            "AssocCode": "146",
+            "AssocPersonId": "8098",
+            "AssocPersonName": "陸佃",
+            "AssocName": "祭文由Y所作"
+        },
+        {
+            "AssocCode": "146",
+            "AssocPersonId": "8098",
+            "AssocPersonName": "陸佃",
+            "AssocName": "祭文由Y所作"
+        },
+        {
+            "AssocCode": "146",
+            "AssocPersonId": "8098",
+            "AssocPersonName": "陸佃",
+            "AssocName": "祭文由Y所作"
+        },
+        {
+            "AssocCode": "146",
+            "AssocPersonId": "12157",
+            "AssocPersonName": "劉弇",
+            "AssocName": "祭文由Y所作"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "9001",
+            "AssocPersonName": "趙匡胤",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "9001",
+            "AssocPersonName": "趙匡胤",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "9002",
+            "AssocPersonName": "趙炅",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "9003",
+            "AssocPersonName": "趙恆",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "9005",
+            "AssocPersonName": "趙曙",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "9005",
+            "AssocPersonName": "趙曙",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "37903",
+            "AssocPersonName": "王氏(趙匡胤妻)",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "41723",
+            "AssocPersonName": "李氏(趙炅妃)",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "147",
+            "AssocPersonId": "41723",
+            "AssocPersonName": "李氏(趙炅妃)",
+            "AssocName": "為Y作祝詞"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "77",
+            "AssocPersonName": "陳升之",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "77",
+            "AssocPersonName": "陳升之",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "14381",
+            "AssocPersonName": "陳世昌",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "14381",
+            "AssocPersonName": "陳世昌",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "24276",
+            "AssocPersonName": "孫侔",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "43344",
+            "AssocPersonName": "胡舜元",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "43344",
+            "AssocPersonName": "胡舜元",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "162",
+            "AssocPersonId": "48046",
+            "AssocPersonName": "陳興之",
+            "AssocName": "為Y作臨別贈言(送別詩、序)"
+        },
+        {
+            "AssocCode": "167",
+            "AssocPersonId": "40750",
+            "AssocPersonName": "李不疑",
+            "AssocName": "為Y作哀辭"
+        },
+        {
+            "AssocCode": "172",
+            "AssocPersonId": "12278",
+            "AssocPersonName": "蕭汝為",
+            "AssocName": "稱道Y之文風"
+        },
+        {
+            "AssocCode": "172",
+            "AssocPersonId": "21346",
+            "AssocPersonName": "孫邈",
+            "AssocName": "稱道Y之文風"
+        },
+        {
+            "AssocCode": "194",
+            "AssocPersonId": "16211",
+            "AssocPersonName": "錢景諶",
+            "AssocName": "受Y之弟子禮"
+        },
+        {
+            "AssocCode": "197",
+            "AssocPersonId": "8136",
+            "AssocPersonName": "曾公亮",
+            "AssocName": "同僚"
+        },
+        {
+            "AssocCode": "227",
+            "AssocPersonId": "38678",
+            "AssocPersonName": "石汝礪",
+            "AssocName": "排Y之學"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "1156",
+            "AssocPersonName": "林之奇",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "3394",
+            "AssocPersonName": "胡安國",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "15992",
+            "AssocPersonName": "黃隱",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "15992",
+            "AssocPersonName": "黃隱",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "26418",
+            "AssocPersonName": "家勤國",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "38223",
+            "AssocPersonName": "王壽卿",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "49380",
+            "AssocPersonName": "楊跡",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "228",
+            "AssocPersonId": "51813",
+            "AssocPersonName": "劉愿",
+            "AssocName": "其學為Y所排"
+        },
+        {
+            "AssocCode": "209",
+            "AssocPersonId": "11817",
+            "AssocPersonName": "熊蕃",
+            "AssocName": "其學為Y所宗"
+        },
+        {
+            "AssocCode": "209",
+            "AssocPersonId": "30223",
+            "AssocPersonName": "黃朝英",
+            "AssocName": "其學為Y所宗"
+        },
+        {
+            "AssocCode": "209",
+            "AssocPersonId": "37684",
+            "AssocPersonName": "王昭禹",
+            "AssocName": "其學為Y所宗"
+        },
+        {
+            "AssocCode": "218",
+            "AssocPersonId": "8098",
+            "AssocPersonName": "陸佃",
+            "AssocName": "傳經於Y"
+        },
+        {
+            "AssocCode": "218",
+            "AssocPersonId": "8098",
+            "AssocPersonName": "陸佃",
+            "AssocName": "傳經於Y"
+        },
+        {
+            "AssocCode": "232",
+            "AssocPersonId": "20691",
+            "AssocPersonName": "馬仲舒",
+            "AssocName": "教授Y"
+        },
+        {
+            "AssocCode": "232",
+            "AssocPersonId": "20884",
+            "AssocPersonName": "沈銖",
+            "AssocName": "教授Y"
+        },
+        {
+            "AssocCode": "232",
+            "AssocPersonId": "26614",
+            "AssocPersonName": "王沇之",
+            "AssocName": "教授Y"
+        },
+        {
+            "AssocCode": "239",
+            "AssocPersonId": "40419",
+            "AssocPersonName": "釋懷璉",
+            "AssocName": "為Y作佛寺記"
+        },
+        {
+            "AssocCode": "239",
+            "AssocPersonId": "53691",
+            "AssocPersonName": "釋智福",
+            "AssocName": "為Y作佛寺記"
+        },
+        {
+            "AssocCode": "239",
+            "AssocPersonId": "53856",
+            "AssocPersonName": "釋慧禮",
+            "AssocName": "為Y作佛寺記"
+        },
+        {
+            "AssocCode": "244",
+            "AssocPersonId": "1445",
+            "AssocPersonName": "沈季長",
+            "AssocName": "與他的交往導致Y受牽連"
+        },
+        {
+            "AssocCode": "251",
+            "AssocPersonId": "43953",
+            "AssocPersonName": "范濟美",
+            "AssocName": "合撰(編)著作"
+        },
+        {
+            "AssocCode": "269",
+            "AssocPersonId": "20691",
+            "AssocPersonName": "馬仲舒",
+            "AssocName": "批評"
+        },
+        {
+            "AssocCode": "276",
+            "AssocPersonId": "788",
+            "AssocPersonName": "許逖",
+            "AssocName": "為Y之家譜作序"
+        },
+        {
+            "AssocCode": "277",
+            "AssocPersonId": "51446",
+            "AssocPersonName": "鄧佺",
+            "AssocName": "與Y遊"
+        },
+        {
+            "AssocCode": "293",
+            "AssocPersonId": "16400",
+            "AssocPersonName": "周常",
+            "AssocName": "稱道Y之文章、學問"
+        },
+        {
+            "AssocCode": "293",
+            "AssocPersonId": "44977",
+            "AssocPersonName": "孫沖",
+            "AssocName": "稱道Y之文章、學問"
+        },
+        {
+            "AssocCode": "359",
+            "AssocPersonId": "333",
+            "AssocPersonName": "章惇",
+            "AssocName": "喜爱"
+        },
+        {
+            "AssocCode": "367",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "政見趨同"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "723",
+            "AssocPersonName": "蕭定基",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "1361",
+            "AssocPersonName": "梅詢",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "1633",
+            "AssocPersonName": "狄棐",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "1633",
+            "AssocPersonName": "狄棐",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "3056",
+            "AssocPersonName": "陳執禮",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "3505",
+            "AssocPersonName": "李虛舟",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "3505",
+            "AssocPersonName": "李虛舟",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "8031",
+            "AssocPersonName": "賈昌朝",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "8033",
+            "AssocPersonName": "周起",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "8103",
+            "AssocPersonName": "馬知節",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "19611",
+            "AssocPersonName": "李陟",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "24263",
+            "AssocPersonName": "李興",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "24263",
+            "AssocPersonName": "李興",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "406",
+            "AssocPersonId": "48355",
+            "AssocPersonName": "馮守信",
+            "AssocName": "為Y作神道碑"
+        },
+        {
+            "AssocCode": "410",
+            "AssocPersonId": "7326",
+            "AssocPersonName": "沈播",
+            "AssocName": "為Y作墓表"
+        },
+        {
+            "AssocCode": "410",
+            "AssocPersonId": "22230",
+            "AssocPersonName": "王君玉",
+            "AssocName": "為Y作墓表"
+        },
+        {
+            "AssocCode": "410",
+            "AssocPersonId": "24811",
+            "AssocPersonName": "常秩",
+            "AssocName": "為Y作墓表"
+        },
+        {
+            "AssocCode": "410",
+            "AssocPersonId": "27097",
+            "AssocPersonName": "鄭詒",
+            "AssocName": "為Y作墓表"
+        },
+        {
+            "AssocCode": "410",
+            "AssocPersonId": "42820",
+            "AssocPersonName": "征集",
+            "AssocName": "為Y作墓表"
+        },
+        {
+            "AssocCode": "410",
+            "AssocPersonId": "42820",
+            "AssocPersonName": "征集",
+            "AssocName": "為Y作墓表"
+        },
+        {
+            "AssocCode": "420",
+            "AssocPersonId": "12319",
+            "AssocPersonName": "余靖",
+            "AssocName": "為Y墓表作序"
+        },
+        {
+            "AssocCode": "424",
+            "AssocPersonId": "18436",
+            "AssocPersonName": "宋敏修",
+            "AssocName": "為Y作挽詩、詞"
+        },
+        {
+            "AssocCode": "424",
+            "AssocPersonId": "18436",
+            "AssocPersonName": "宋敏修",
+            "AssocName": "為Y作挽詩、詞"
+        },
+        {
+            "AssocCode": "426",
+            "AssocPersonId": "1893",
+            "AssocPersonName": "王德用",
+            "AssocName": "為Y作行狀"
+        },
+        {
+            "AssocCode": "426",
+            "AssocPersonId": "1893",
+            "AssocPersonName": "王德用",
+            "AssocName": "為Y作行狀"
+        },
+        {
+            "AssocCode": "426",
+            "AssocPersonId": "8135",
+            "AssocPersonName": "曹瑋",
+            "AssocName": "為Y作行狀"
+        },
+        {
+            "AssocCode": "426",
+            "AssocPersonId": "8135",
+            "AssocPersonName": "曹瑋",
+            "AssocName": "為Y作行狀"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "55",
+            "AssocPersonName": "陳繹",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "122",
+            "AssocPersonName": "程師孟",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "217",
+            "AssocPersonName": "張方平",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "293",
+            "AssocPersonName": "張肅",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "333",
+            "AssocPersonName": "章惇",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "461",
+            "AssocPersonName": "蔣之奇",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "628",
+            "AssocPersonName": "富弼",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "770",
+            "AssocPersonName": "徐的",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "964",
+            "AssocPersonName": "郎簡",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1024",
+            "AssocPersonName": "李復圭",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1024",
+            "AssocPersonName": "李復圭",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1188",
+            "AssocPersonName": "劉瑾",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1314",
+            "AssocPersonName": "呂公著",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1353",
+            "AssocPersonName": "馬遵",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1400",
+            "AssocPersonName": "彭汝礪",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1437",
+            "AssocPersonName": "邵必",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1445",
+            "AssocPersonName": "沈季長",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1445",
+            "AssocPersonName": "沈季長",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1521",
+            "AssocPersonName": "孫覺",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1617",
+            "AssocPersonName": "田況",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1717",
+            "AssocPersonName": "祖無擇",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1722",
+            "AssocPersonName": "杜杞",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1722",
+            "AssocPersonName": "杜杞",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1845",
+            "AssocPersonName": "王珪",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1847",
+            "AssocPersonName": "王拱辰",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1865",
+            "AssocPersonName": "王韶",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1953",
+            "AssocPersonName": "文彥博",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "1960",
+            "AssocPersonName": "吳充",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "2020",
+            "AssocPersonName": "楊蟠",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "3580",
+            "AssocPersonName": "劉敞",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "3623",
+            "AssocPersonName": "樓郁",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "3903",
+            "AssocPersonName": "曾阜",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "4020",
+            "AssocPersonName": "吳蕡",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "7177",
+            "AssocPersonName": "趙卨",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "7364",
+            "AssocPersonName": "曾鞏",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "8016",
+            "AssocPersonName": "張昇",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "8119",
+            "AssocPersonName": "宋庠",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "8136",
+            "AssocPersonName": "曾公亮",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "8136",
+            "AssocPersonName": "曾公亮",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "15744",
+            "AssocPersonName": "孫甫",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "15744",
+            "AssocPersonName": "孫甫",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "17981",
+            "AssocPersonName": "鞏豐",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "21619",
+            "AssocPersonName": "丁寶臣",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "24276",
+            "AssocPersonName": "孫侔",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "27769",
+            "AssocPersonName": "郭祥正",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "29551",
+            "AssocPersonName": "吳豪",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "40759",
+            "AssocPersonName": "杜醇",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "40759",
+            "AssocPersonName": "杜醇",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "429",
+            "AssocPersonId": "48199",
+            "AssocPersonName": "崔公度",
+            "AssocName": "致書Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "1220",
+            "AssocPersonName": "劉攽",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "1488",
+            "AssocPersonName": "司馬光",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "1488",
+            "AssocPersonName": "司馬光",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "1488",
+            "AssocPersonName": "司馬光",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "3767",
+            "AssocPersonName": "蘇軾",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "7364",
+            "AssocPersonName": "曾鞏",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "7364",
+            "AssocPersonName": "曾鞏",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "7364",
+            "AssocPersonName": "曾鞏",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "8051",
+            "AssocPersonName": "韓維",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "8118",
+            "AssocPersonName": "孫沔",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "430",
+            "AssocPersonId": "15296",
+            "AssocPersonName": "鄭俠",
+            "AssocName": "被致書由Y"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "147",
+            "AssocPersonName": "錢公輔",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "229",
+            "AssocPersonName": "張詵",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "433",
+            "AssocPersonName": "郟亶",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "461",
+            "AssocPersonName": "蔣之奇",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "573",
+            "AssocPersonName": "范峋",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "740",
+            "AssocPersonName": "熊本",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "941",
+            "AssocPersonName": "龔原",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "941",
+            "AssocPersonName": "龔原",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1097",
+            "AssocPersonName": "李定",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1488",
+            "AssocPersonName": "司馬光",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1521",
+            "AssocPersonName": "孫覺",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1648",
+            "AssocPersonName": "蔡肇",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1705",
+            "AssocPersonName": "曾伉",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "1953",
+            "AssocPersonName": "文彥博",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "2112",
+            "AssocPersonName": "元絳",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "3767",
+            "AssocPersonName": "蘇軾",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "3799",
+            "AssocPersonName": "宋保國",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "3958",
+            "AssocPersonName": "王回",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "3971",
+            "AssocPersonName": "王伯虎",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "4058",
+            "AssocPersonName": "姚闢",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "7099",
+            "AssocPersonName": "楊忱",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "7364",
+            "AssocPersonName": "曾鞏",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "8118",
+            "AssocPersonName": "孫沔",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "13578",
+            "AssocPersonName": "張幾",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "16871",
+            "AssocPersonName": "韓宗恕",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "19871",
+            "AssocPersonName": "王該",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "24276",
+            "AssocPersonName": "孫侔",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "37969",
+            "AssocPersonName": "王開祖",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "38106",
+            "AssocPersonName": "王致",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "41668",
+            "AssocPersonName": "吳孝宗",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "41668",
+            "AssocPersonName": "吳孝宗",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "41842",
+            "AssocPersonName": "余京",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "43524",
+            "AssocPersonName": "俞紫芝",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "43985",
+            "AssocPersonName": "段縫",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "44956",
+            "AssocPersonName": "孫鼛",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "431",
+            "AssocPersonId": "45356",
+            "AssocPersonName": "許遵",
+            "AssocName": "答Y書"
+        },
+        {
+            "AssocCode": "432",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "收到Y的答書"
+        },
+        {
+            "AssocCode": "433",
+            "AssocPersonId": "465",
+            "AssocPersonName": "蔣堂",
+            "AssocName": "致Y啓"
+        },
+        {
+            "AssocCode": "434",
+            "AssocPersonId": "122",
+            "AssocPersonName": "程師孟",
+            "AssocName": "收到Y的啓"
+        },
+        {
+            "AssocCode": "434",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "收到Y的啓"
+        },
+        {
+            "AssocCode": "434",
+            "AssocPersonId": "1384",
+            "AssocPersonName": "歐陽修",
+            "AssocName": "收到Y的啓"
+        },
+        {
+            "AssocCode": "437",
+            "AssocPersonId": "40839",
+            "AssocPersonName": "李士雲",
+            "AssocName": "贈詩、文"
+        },
+        {
+            "AssocCode": "437",
+            "AssocPersonId": "49184",
+            "AssocPersonName": "程惟象",
+            "AssocName": "贈詩、文"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "1236",
+            "AssocPersonName": "劉定",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "1443",
+            "AssocPersonName": "沈起",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "7239",
+            "AssocPersonName": "謝景初",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "8119",
+            "AssocPersonName": "宋庠",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "11941",
+            "AssocPersonName": "刁繹",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "12319",
+            "AssocPersonName": "余靖",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "39625",
+            "AssocPersonName": "全自明",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "40419",
+            "AssocPersonName": "釋懷璉",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "41927",
+            "AssocPersonName": "呂沖之",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "443",
+            "AssocPersonId": "41927",
+            "AssocPersonName": "呂沖之",
+            "AssocName": "為Y之建築物題詠、記、命名"
+        },
+        {
+            "AssocCode": "444",
+            "AssocPersonId": "3624",
+            "AssocPersonName": "樓鑰",
+            "AssocName": "建築物得到Y的題詠、記、命名"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "12313",
+            "AssocPersonName": "李定",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "39228",
+            "AssocPersonName": "元積中",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "40759",
+            "AssocPersonName": "杜醇",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "40759",
+            "AssocPersonName": "杜醇",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "42396",
+            "AssocPersonName": "林肇",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "44766",
+            "AssocPersonName": "夏希道",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "459",
+            "AssocPersonId": "46643",
+            "AssocPersonName": "張定",
+            "AssocName": "為Y作學記（書院記）"
+        },
+        {
+            "AssocCode": "469",
+            "AssocPersonId": "3967",
+            "AssocPersonName": "王令",
+            "AssocName": "為Y之詩文作跋"
+        },
+        {
+            "AssocCode": "472",
+            "AssocPersonId": "1309",
+            "AssocPersonName": "呂惠卿",
+            "AssocName": "被Y陷害"
+        },
+        {
+            "AssocCode": "494",
+            "AssocPersonId": "1844",
+            "AssocPersonName": "王廣淵",
+            "AssocName": "護佑Y"
+        },
+        {
+            "AssocCode": "494",
+            "AssocPersonId": "1844",
+            "AssocPersonName": "王廣淵",
+            "AssocName": "護佑Y"
+        },
+        {
+            "AssocCode": "499",
+            "AssocPersonId": "18944",
+            "AssocPersonName": "黃彥",
+            "AssocName": "聘Y執教官學、書院"
+        },
+        {
+            "AssocCode": "504",
+            "AssocPersonId": "40839",
+            "AssocPersonName": "李士雲",
+            "AssocName": "得到贈畫"
+        },
+        {
+            "AssocCode": "506",
+            "AssocPersonId": "2032",
+            "AssocPersonName": "楊畏",
+            "AssocName": "收到Y所獻詩、文、書"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "147",
+            "AssocPersonName": "錢公輔",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "833",
+            "AssocPersonName": "胡宗愈",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "1707",
+            "AssocPersonName": "曾布",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "1724",
+            "AssocPersonName": "杜純",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "2007",
+            "AssocPersonName": "楊繪",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "15014",
+            "AssocPersonName": "魯有開",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "40169",
+            "AssocPersonName": "汪齊",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "41668",
+            "AssocPersonName": "吳孝宗",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "516",
+            "AssocPersonId": "44306",
+            "AssocPersonName": "祝常",
+            "AssocName": "被Y得罪"
+        },
+        {
+            "AssocCode": "529",
+            "AssocPersonId": "12236",
+            "AssocPersonName": "徐鉉",
+            "AssocName": "評論Y之著作"
+        },
+        {
+            "AssocCode": "529",
+            "AssocPersonId": "12236",
+            "AssocPersonName": "徐鉉",
+            "AssocName": "評論Y之著作"
+        },
+        {
+            "AssocCode": "530",
+            "AssocPersonId": "7343",
+            "AssocPersonName": "孫覿",
+            "AssocName": "著作被Y評論"
+        },
+        {
+            "AssocCode": "530",
+            "AssocPersonId": "27727",
+            "AssocPersonName": "方回",
+            "AssocName": "著作被Y評論"
+        },
+        {
+            "AssocCode": "540",
+            "AssocPersonId": "3568",
+            "AssocPersonName": "林積",
+            "AssocName": "稱道Y之政績"
+        },
+        {
+            "AssocCode": "554",
+            "AssocPersonId": "8079",
+            "AssocPersonName": "李光",
+            "AssocName": "被Y奏論"
+        },
+        {
+            "AssocCode": "556",
+            "AssocPersonId": "39625",
+            "AssocPersonName": "全自明",
+            "AssocName": "為Y作道觀記"
+        },
+        {
+            "AssocCode": "556",
+            "AssocPersonId": "45767",
+            "AssocPersonName": "丁用平",
+            "AssocName": "為Y作道觀記"
+        },
+        {
+            "AssocCode": "556",
+            "AssocPersonId": "51446",
+            "AssocPersonName": "鄧佺",
+            "AssocName": "為Y作道觀記"
+        },
+        {
+            "AssocCode": "561",
+            "AssocPersonId": "3632",
+            "AssocPersonName": "陸九淵",
+            "AssocName": "祠記由Y所作"
+        },
+        {
+            "AssocCode": "561",
+            "AssocPersonId": "10801",
+            "AssocPersonName": "虞集",
+            "AssocName": "祠記由Y所作"
+        }
+    ],
+    "Kinship": [
+        {
+            "KinPersonName": "朱明之",
+            "KinRel": "Z-H",
+            "KinRelName": "妹夫",
+            "KinCode": "159",
+            "KinPersonId": "526"
+        },
+        {
+            "KinPersonName": "呂嘉問",
+            "KinRel": "SDH",
+            "KinRelName": "孫女婿",
+            "KinCode": "244",
+            "KinPersonId": "1294"
+        },
+        {
+            "KinPersonName": "蔡京",
+            "KinRel": "BDH",
+            "KinRelName": "姪女之夫",
+            "KinCode": "178",
+            "KinPersonId": "1649"
+        },
+        {
+            "KinPersonName": "王安禮",
+            "KinRel": "B-",
+            "KinRelName": "弟",
+            "KinCode": "126",
+            "KinPersonId": "1760"
+        },
+        {
+            "KinPersonName": "王珏",
+            "KinRel": "SSS",
+            "KinRelName": "曾孫; 重孫",
+            "KinCode": "255",
+            "KinPersonId": "1796"
+        },
+        {
+            "KinPersonName": "吳安持",
+            "KinRel": "D1H",
+            "KinRelName": "長女婿",
+            "KinCode": "332",
+            "KinPersonId": "1957"
+        },
+        {
+            "KinPersonName": "王貫之",
+            "KinRel": "FFB",
+            "KinRelName": "從祖;伯叔祖",
+            "KinCode": "64",
+            "KinPersonId": "3965"
+        },
+        {
+            "KinPersonName": "王令",
+            "KinRel": "WZH",
+            "KinRelName": "連襟;妻姊妹之夫",
+            "KinCode": "173",
+            "KinPersonId": "3967"
+        },
+        {
+            "KinPersonName": "王雱",
+            "KinRel": "S",
+            "KinRelName": "子",
+            "KinCode": "180",
+            "KinPersonId": "3968"
+        },
+        {
+            "KinPersonName": "吳蕡",
+            "KinRel": "WF",
+            "KinRelName": "岳父",
+            "KinCode": "76",
+            "KinPersonId": "4020"
+        },
+        {
+            "KinPersonName": "吳氏(王益妻)",
+            "KinRel": "M",
+            "KinRelName": "母",
+            "KinCode": "111",
+            "KinPersonId": "5134"
+        },
+        {
+            "KinPersonName": "王安國",
+            "KinRel": "B-",
+            "KinRelName": "弟",
+            "KinCode": "126",
+            "KinPersonId": "7076"
+        },
+        {
+            "KinPersonName": "王益",
+            "KinRel": "F",
+            "KinRelName": "父",
+            "KinCode": "75",
+            "KinPersonId": "7082"
+        },
+        {
+            "KinPersonName": "葉濤",
+            "KinRel": "DH",
+            "KinRelName": "女婿",
+            "KinCode": "181",
+            "KinPersonId": "7404"
+        },
+        {
+            "KinPersonName": "蔡卞",
+            "KinRel": "DH",
+            "KinRelName": "女婿",
+            "KinCode": "181",
+            "KinPersonId": "8131"
+        },
+        {
+            "KinPersonName": "石斗文",
+            "KinRel": "BSSDH",
+            "KinRelName": "曾姪孫女婿",
+            "KinCode": "254",
+            "KinPersonId": "13425"
+        },
+        {
+            "KinPersonName": "吳顯道",
+            "KinRel": "WB+",
+            "KinRelName": "妻兄",
+            "KinCode": "137",
+            "KinPersonId": "18876"
+        },
+        {
+            "KinPersonName": "沈銖",
+            "KinRel": "ZS",
+            "KinRelName": "外甥",
+            "KinCode": "179",
+            "KinPersonId": "20884"
+        },
+        {
+            "KinPersonName": "沈錫",
+            "KinRel": "ZS",
+            "KinRelName": "外甥",
+            "KinCode": "179",
+            "KinPersonId": "20896"
+        },
+        {
+            "KinPersonName": "王安仁",
+            "KinRel": "B+",
+            "KinRelName": "兄",
+            "KinCode": "125",
+            "KinPersonId": "21944"
+        },
+        {
+            "KinPersonName": "王滂",
+            "KinRel": "S",
+            "KinRelName": "子",
+            "KinCode": "180",
+            "KinPersonId": "21968"
+        },
+        {
+            "KinPersonName": "王景",
+            "KinRel": "BSS",
+            "KinRelName": "姪孫;從孫",
+            "KinCode": "240",
+            "KinPersonId": "38456"
+        },
+        {
+            "KinPersonName": "吳氏(王安石妻)",
+            "KinRel": "W",
+            "KinRelName": "妻子",
+            "KinCode": "135",
+            "KinPersonId": "38653"
+        },
+        {
+            "KinPersonName": "王氏(吳安持妻)",
+            "KinRel": "D1",
+            "KinRelName": "長女",
+            "KinCode": "327",
+            "KinPersonId": "41576"
+        },
+        {
+            "KinPersonName": "王熙",
+            "KinRel": "G+10",
+            "KinRelName": "十世孫",
+            "KinCode": "282",
+            "KinPersonId": "100909"
+        }
+    ]
+}

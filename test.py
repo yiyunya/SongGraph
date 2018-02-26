@@ -15,6 +15,10 @@
 # print(type(b['f']))
 
 
-a={'b':""}
-print(a['b'] is not 0 or None)
-print(isinstance(a,dict))
+# a={'b':""}
+# print(a['b'] is not 0 or None)
+# print(isinstance(a,dict))
+
+a = "1234567"
+
+print(a[:-2])
