@@ -23,6 +23,11 @@ def check_exist(rel_id, step_counter):
             return True
     return False
 
+def check_list(rel_id, check_list):
+    if rel_id in check_list():
+        return True
+    return False
+
 
 def check_valid_exist(rel_id, step_counter):
     path = os.path.abspath('..')
@@ -33,6 +38,9 @@ def check_valid_exist(rel_id, step_counter):
 
 def step(id, step_counter, index_year, min_rel, min_social_rel, female):
     path = os.path.abspath('..')
+    check_list = []
+    for i in range(step_counter+1):
+        check_list.extend(step_full_list(i))
     all = []
     valid = []
     f = open(path+"/data/valid_"+str(step_counter-1)+"/"+str(id)+".json",'r')
@@ -46,6 +54,7 @@ def step(id, step_counter, index_year, min_rel, min_social_rel, female):
             try:
                 get_json(int(rel_id), step_counter)
                 all.append(int(rel_id))
+                check_list.append(rel_id)
                 f = open(path + "/data/raw_" + str(step_counter) + "/" + rel_id + ".json", 'r')
 
                 d = load_json(f)
@@ -77,6 +86,7 @@ def step(id, step_counter, index_year, min_rel, min_social_rel, female):
             try:
                 get_json(int(rel_id), step_counter)
                 all.append(int(rel_id))
+                check_list.append(rel_id)
                 f = open(path + "/data/raw_" + str(step_counter) + "/" + rel_id + ".json", 'r')
                 d = load_json(f)
                 f.close()
