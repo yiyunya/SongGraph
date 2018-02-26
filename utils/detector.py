@@ -11,7 +11,8 @@ def relation_index(step):
         for name in files:
             if (name.endswith(".json")):
                 datapath = dir + name
-                data = json.load(datapath)
+                f = open(datapath,'r')
+                data = json.load(f)
                 for rel in data['SocialAssociation']:
                     if rel["AssocCode"] not in index.keys():
                         index[rel["AssocCode"]] = rel["AssocName"]
