@@ -58,8 +58,8 @@ class Crawler:
         return step_counter, counter, a, v
 
 crawl = Crawler()
-start = step_list(2)
-total_step, total, all, valid = crawl.BFS(start_id = start, warmup = 2)
+start = step_list(0)
+total_step, total, all, valid = crawl.BFS(start_id = start, warmup = 0)
 print(total_step, total)
 path = os.path.abspath('..')
 f = open(path + "/data/crawl.txt", 'w')

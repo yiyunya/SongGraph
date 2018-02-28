@@ -111,7 +111,7 @@ def step(id, step_counter, index_year, min_rel, min_social_rel, female):
 
         if check_valid_exist(rel_id, step_counter):
             valid_social.append(rel)
-    data['ValidKinship']=valid_social
+    data['ValidSocialAssociation']=valid_social
     with open(path+"/data/valid_"+str(step_counter-1)+"/"+str(id)+".json", 'w') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
     f.close()
