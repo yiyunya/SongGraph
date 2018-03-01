@@ -1,6 +1,9 @@
 # SongGraph
 some code for the open data competition
-1 遍历(广度优先)
+1 BFS
+
 2 PAGERANK
-3 TRANSE
+
+3 community detection
+
 4 可视化
