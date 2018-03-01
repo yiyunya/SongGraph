@@ -108,6 +108,22 @@ def weight_sorted():
     return sorter
 
 
+def positive_sorted():
+    path = os.path.abspath('..')
+    f = open(path+"/data/node_checklist.json",'r')
+    node_list = json.load(f)
+    pagerank = open(path+"/data/positive_weighted_pagerank.json", 'r')
+    pagerank = json.load(pagerank)
+    name_rank = {}
+    for (k,v) in node_list.items():
+        if k in pagerank.keys():
+            name_rank[k] = {'name':v, 'rank':pagerank[k]}
+    items = name_rank.items()
+    sorter = [[v[1]['rank'],v[0],v[1]['name']] for v in items]
+    sorter.sort()
+    return sorter
+
+
 def search_association(id):
     index = {}
     path = os.path.abspath('..')
@@ -135,18 +151,18 @@ def search_association(id):
 
 
 
-# index = weight_sorted()
-# print(len(index))
-# dir = os.path.abspath('..') + "/data/weighted_ranking.txt"
-# with open(dir, 'w') as f:
-#     for i in index:
-#         print(i[1]," ",i[2]," ",i[0],file = f)
-
-index = search_association(9008)
-dir = os.path.abspath('..') + "/data/9008.txt"
+index = positive_sorted()
+print(len(index))
+dir = os.path.abspath('..') + "/data/positive_weighted_ranking.txt"
 with open(dir, 'w') as f:
-    for k,v in index.items():
-        print(k," ",v[0]," ",v[1], file = f)
+    for i in index:
+        print(i[1]," ",i[2]," ",i[0],file = f)
+
+# index = search_association(9008)
+# dir = os.path.abspath('..') + "/data/9008.txt"
+# with open(dir, 'w') as f:
+#     for k,v in index.items():
+#         print(k," ",v[0]," ",v[1], file = f)
 
 
 
