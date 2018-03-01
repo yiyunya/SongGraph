@@ -6,4 +6,4 @@ some code for the open data competition
 
 3 community detection
 
-4 可视化
+4 可视化(二期开放预订中)
