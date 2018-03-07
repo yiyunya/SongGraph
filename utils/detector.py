@@ -89,7 +89,7 @@ def sorted():
         name_rank[k] = {'name':v, 'rank':pagerank[k]}
     items = name_rank.items()
     sorter = [[v[1]['rank'],v[0],v[1]['name']] for v in items]
-    sorter.sort()
+    sorter.sort(reverse=True)
     return sorter
 
 
@@ -104,7 +104,7 @@ def weight_sorted():
         name_rank[k] = {'name':v, 'rank':pagerank[k]}
     items = name_rank.items()
     sorter = [[v[1]['rank'],v[0],v[1]['name']] for v in items]
-    sorter.sort()
+    sorter.sort(reverse=True)
     return sorter
 
 
@@ -120,7 +120,7 @@ def positive_sorted():
             name_rank[k] = {'name':v, 'rank':pagerank[k]}
     items = name_rank.items()
     sorter = [[v[1]['rank'],v[0],v[1]['name']] for v in items]
-    sorter.sort()
+    sorter.sort(reverse=True)
     return sorter
 
 
@@ -151,9 +151,9 @@ def search_association(id):
 
 
 
-index = positive_sorted()
+index = sorted()
 print(len(index))
-dir = os.path.abspath('..') + "/data/positive_weighted_ranking.txt"
+dir = os.path.abspath('..') + "/人际关系影响力排名.txt"
 with open(dir, 'w') as f:
     for i in index:
         print(i[1]," ",i[2]," ",i[0],file = f)
