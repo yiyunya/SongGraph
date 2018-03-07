@@ -81,6 +81,7 @@ top 30:
 896 people for the positive politics ranking
 
 top 30:
+
     1762   王安石   0.053516849899642706
     1384   歐陽修   0.045166811778745604
     3767   蘇軾   0.043383881796153836
@@ -117,6 +118,7 @@ top 30:
 Use asyn_lpa_communities(), split into 5 communities and manually sort into 2 parties
 
 influence caculated from the politic influence:
+
     0.19563569399999997 for 541 people in A
     0.121498075 for 380 people in B
 
