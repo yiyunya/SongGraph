@@ -24,6 +24,18 @@ class Ranker:
         pr = nx.pagerank(self.graph)
         return pr
 
+    def write_graph(self):
+        self.graph = build_graph()
+        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/graph.json")
+
+    def write_positive_graph(self):
+        self.graph = build_graph()
+        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/positive_graph.json")
+
+    def write_weight_graph(self):
+        self.graph = build_graph()
+        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/weight_graph.json")
+
 
 ranker = Ranker()
 pr = ranker.positive_rank()
