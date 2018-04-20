@@ -26,22 +26,23 @@ class Ranker:
 
     def write_graph(self):
         self.graph = build_graph()
-        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/graph.json")
+        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/graph.gexf")
 
     def write_positive_graph(self):
-        self.graph = build_graph()
-        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/positive_graph.json")
+        self.graph = build_weight_graph()
+        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/positive_graph.gexf")
 
     def write_weight_graph(self):
-        self.graph = build_graph()
-        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/weight_graph.json")
+        self.graph = build_rank_graph()
+        nx.write_gexf(self.graph, os.path.abspath('..') + "/data/weight_graph.gexf")
 
 
 ranker = Ranker()
-pr = ranker.positive_rank()
-dir = os.path.abspath('..') + "/data/positive_weighted_pagerank.json"
-with open(dir, 'w') as f:
-    json.dump(pr, f, indent=4, ensure_ascii=False)
+ranker.write_positive_graph()
+# pr = ranker.positive_rank()
+# dir = os.path.abspath('..') + "/data/positive_weighted_pagerank.json"
+# with open(dir, 'w') as f:
+#     json.dump(pr, f, indent=4, ensure_ascii=False)
 
 
 

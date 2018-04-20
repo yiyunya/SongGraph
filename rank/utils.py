@@ -68,6 +68,7 @@ def build_rank_graph():
     for (k, name) in node_list.items():
         f = open_json_file(k)
         data = json.load(f)
+
         for kin in data["ValidKinship"]:
             out_node = int(k)
             in_node = int(kin["KinPersonId"])
