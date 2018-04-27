@@ -19,6 +19,7 @@
 # print(a['b'] is not 0 or None)
 # print(isinstance(a,dict))
 
-a = "1234567"
+# a = "1234567"
+#
+# print(a[:-2])
 
-print(a[:-2])

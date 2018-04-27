@@ -46,14 +46,13 @@ def build_unweighted_rank_graph():
     return graph
 
 path = os.path.abspath('..')
-f = open(path+"/data/clustering_0.txt")
+f = open(path+"/data/klcommunity4_0.txt")
 lines = f.readlines()
 cluster_0 = []
 cluster_1 = []
 for i,line in enumerate(lines):
-    if i < 20:
-        id, name, rank = line.split()
-        cluster_0.append({'id':id,'name':name,'rank':rank})
+    id, name, rank = line.split()
+    cluster_0.append({'id':id,'name':name,'rank':rank})
 
 graph = build_unweighted_rank_graph()
 nodes_0 = []
@@ -71,12 +70,11 @@ for i in cluster_0:
 
 print(sum_0)
 
-f = open(path+"/data/clustering_1.txt")
+f = open(path+"/data/klcommunity4_1.txt")
 lines = f.readlines()
 for i,line in enumerate(lines):
-    if i < 10:
-        id, name, rank = line.split()
-        cluster_1.append({'id':id,'name':name,'rank':rank})
+    id, name, rank = line.split()
+    cluster_1.append({'id':id,'name':name,'rank':rank})
 
 graph = build_unweighted_rank_graph()
 nodes_1 = []

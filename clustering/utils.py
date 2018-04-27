@@ -120,3 +120,4 @@ def change_into_name():
     for (k,v) in node_list.items():
         name_rank[k] = {'name':v, 'rank':pagerank[k]}
     return name_rank
+
