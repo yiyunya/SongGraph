@@ -1,5 +1,11 @@
 # SongGraph
-some code for the open data competition
+Code for these two following papers. If this code is useful for you, please cite these two papers:
+
+> Liu Q., Wang Q., Chen W. (2018) An Analysis of Xi Feng Parties in the Northern Song Dynasty Through Complex Network Algorithms. International Conference on Image Processing, Computing and Big Data. IPCBD 2018. (EI, Oral)
+
+> Liu Q.*, Wang Q.*, Chen W., Kawahara D. (2019) A Community Detection Method Towards Analysis of Xi Feng Parties in the Northern Song Dynasty. The 33rd Pacific Asia Conference on Language, Information and Computation. PACLIC 33, 2019. (Oral)
+
+
 
 
 - 1 BFS
